@@ -1,0 +1,408 @@
+{
+  "chunks": {
+    "2c5d81c5c9f3ec9adb46daf341feff44": {
+      "entities": [
+        {
+          "name": "算法",
+          "description": "Dijkstra算法，时间复杂度O(E log V)，无负权边"
+        },
+        {
+          "name": "算法",
+          "description": "Floyd算法，时间复杂度O(V³)，多源最短路径"
+        },
+        {
+          "name": "算法",
+          "description": "Prim算法，时间复杂度O(E log V)，从点出发"
+        },
+        {
+          "name": "算法",
+          "description": "Kruskal算法，时间复杂度O(E log E)，从边出发"
+        },
+        {
+          "name": "算法",
+          "description": "哈希表",
+          "core_elements": [
+            {
+              "name": "哈希函数",
+              "description": "快速、均匀、确定性"
+            },
+            {
+              "name": "冲突处理",
+              "description": "链地址法：数组+链表，Java HashMap"
+            }
+          ]
+        },
+        {
+          "name": "算法",
+          "description": "排序算法",
+          "time_complexities": [
+            {
+              "name": "冒泡排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "是",
+              "application": "教学、几乎有序"
+            },
+            {
+              "name": "插入排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "是",
+              "application": "小规模、基本有序"
+            },
+            {
+              "name": "选择排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "否",
+              "application": "交换次数最少"
+            },
+            {
+              "name": "希尔排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n²)",
+              "space": "O(n log n)",
+              "stability": "否",
+              "application": "中等规模"
+            },
+            {
+              "name": "快速排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n²)",
+              "space": "O(log n)",
+              "stability": "否",
+              "application": "通用最快、大规模"
+            },
+            {
+              "name": "归并排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n log n)",
+              "space": "O(n)",
+              "stability": "是",
+              "application": "链表排序、稳定要求"
+            },
+            {
+              "name": "堆排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n log n)",
+              "space": "O(1)",
+              "stability": "否",
+              "application": "内存敏感、TopK"
+            },
+            {
+              "name": "计数排序",
+              "time_average": "O(n+k)",
+              "time_worst": "O(n+k)",
+              "space": "O(k)",
+              "stability": "是",
+              "application": "整数范围小"
+            },
+            {
+              "name": "桶排序",
+              "time_average": "O(n+k)",
+              "time_worst": "O(n²)",
+              "space": "O(n+k)",
+              "stability": "是",
+              "application": "数据分布均匀"
+            }
+          ]
+        },
+        {
+          "name": "查找算法",
+          "order_search": "O(n)",
+          "binary_search": "O(log n)",
+          "hash_search": "O(1)",
+          "bst_search": "O(log n)",
+          "b_tree_search": "O(log n)",
+          "b_plus_tree_search": "O(log n)",
+          "database_search": "O(log n)"
+        },
+        {
+          "name": "算法",
+          "strategy": "分治法",
+          "greedy": "局部最优",
+          "dynamic_programming": "记忆化递推",
+          "backtracking": "试错+撤销",
+          "branch_limit": "最优解搜索"
+        },
+        {
+          "name": "算法",
+          "key_terms": [
+            {
+              "name": "ADT",
+              "description": "抽象数据类型（接口定义）"
+            },
+            {
+              "name": "深拷贝",
+              "description": "指针复制 vs 内容复制"
+            },
+            {
+              "name": "递归",
+              "description": "函数自我调用，需终止条件"
+            },
+            {
+              "name": "迭代",
+              "description": "循环实现，空间节省"
+            },
+            {
+              "name": "稳定排序",
+              "description": "相等元素相对次序不变"
+            },
+            {
+              "name": "原地排序",
+              "description": "O(1) 辅助空间"
+            }
+          ]
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Dijkstra",
+          "target": "算法",
+          "relation": "算法类型",
+          "description": "Dijkstra算法，时间复杂度O(E log V)，无负权边"
+        },
+        {
+          "source": "Floyd",
+          "target": "算法",
+          "relation": "算法类型",
+          "description": "Floyd算法，时间复杂度O(V³)，多源最短路径"
+        },
+        {
+          "source": "Prim",
+          "target": "算法",
+          "relation": "算法类型",
+          "description": "Prim算法，时间复杂度O(E log V)，从点出发"
+        },
+        {
+          "source": "Kruskal",
+          "target": "算法",
+          "relation": "算法类型",
+          "description": "Kruskal算法，时间复杂度O(E log E)，从边出发"
+        },
+        {
+          "source": "哈希表",
+          "target": "算法",
+          "relation": "核心要素",
+          "description": "哈希表",
+          "core_elements": [
+            {
+              "name": "哈希函数",
+              "description": "快速、均匀、确定性"
+            },
+            {
+              "name": "冲突处理",
+              "description": "链地址法：数组+链表，Java HashMap"
+            }
+          ]
+        },
+        {
+          "source": "排序算法",
+          "target": "算法",
+          "relation": "时间复杂度",
+          "description": "排序算法",
+          "time_complexities": [
+            {
+              "name": "冒泡排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "是",
+              "application": "教学、几乎有序"
+            },
+            {
+              "name": "插入排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "是",
+              "application": "小规模、基本有序"
+            },
+            {
+              "name": "选择排序",
+              "time_average": "O(n²)",
+              "time_worst": "O(n²)",
+              "space": "O(1)",
+              "stability": "否",
+              "application": "交换次数最少"
+            },
+            {
+              "name": "希尔排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n²)",
+              "space": "O(n log n)",
+              "stability": "否",
+              "application": "中等规模"
+            },
+            {
+              "name": "快速排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n²)",
+              "space": "O(log n)",
+              "stability": "否",
+              "application": "通用最快、大规模"
+            },
+            {
+              "name": "归并排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n log n)",
+              "space": "O(n)",
+              "stability": "是",
+              "application": "链表排序、稳定要求"
+            },
+            {
+              "name": "堆排序",
+              "time_average": "O(n log n)",
+              "time_worst": "O(n log n)",
+              "space": "O(1)",
+              "stability": "否",
+              "application": "内存敏感、TopK"
+            },
+            {
+              "name": "计数排序",
+              "time_average": "O(n+k)",
+              "time_worst": "O(n+k)",
+              "space": "O(k)",
+              "stability": "是",
+              "application": "整数范围小"
+            },
+            {
+              "name": "桶排序",
+              "time_average": "O(n+k)",
+              "time_worst": "O(n²)",
+              "space": "O(n+k)",
+              "stability": "是",
+              "application": "数据分布均匀"
+            }
+          ]
+        },
+        {
+          "source": "查找算法",
+          "target": "算法",
+          "relation": "查找算法",
+          "description": "查找算法",
+          "order_search": "O(n)",
+          "binary_search": "O(log n)",
+          "hash_search": "O(1)",
+          "bst_search": "O(log n)",
+          "b_tree_search": "O(log n)",
+          "b_plus_tree_search": "O(log n)",
+          "database_search": "O(log n)"
+        },
+        {
+          "source": "算法",
+          "target": "算法",
+          "relation": "算法设计策略",
+          "description": "算法设计策略",
+          "strategies": [
+            {
+              "name": "分治法",
+              "description": "分解→解决→合并（归并、快速排序）"
+            },
+            {
+              "name": "贪心法",
+              "description": "局部最优→全局最优（Dijkstra、最小生成树）"
+            },
+            {
+              "name": "动态规划",
+              "description": "记忆化递推（斐波那契、背包）"
+            },
+            {
+              "name": "回溯法",
+              "description": "试错+撤销（八皇后、全排列）"
+            },
+            {
+              "name": "分支限界",
+              "description": "最优解搜索（旅行商）"
+            }
+          ]
+        },
+        {
+          "source": "算法",
+          "target": "算法",
+          "relation": "关键术语",
+          "description": "关键术语",
+          "key_terms": [
+            {
+              "name": "ADT",
+              "description": "抽象数据类型（接口定义）"
+            },
+            {
+              "name": "深拷贝",
+              "description": "指针复制 vs 内容复制"
+            },
+            {
+              "name": "递归",
+              "description": "函数自我调用，需终止条件"
+            },
+            {
+              "name": "迭代",
+              "description": "循环实现，空间节省"
+            },
+            {
+              "name": "稳定排序",
+              "description": "相等元素相对次序不变"
+            },
+            {
+              "name": "原地排序",
+              "description": "O(1) 辅助空间"
+            }
+          ]
+        }
+      ]
+    },
+    "254e0a6d68b3a05c5d6b5d1db0efc395": {
+      "entities": [
+        {
+          "name": "数组",
+          "type": "数据结构",
+          "description": "数组索引、哈希查找"
+        },
+        {
+          "name": "链表",
+          "type": "数据结构",
+          "description": "动态大小、顺序访问"
+        },
+        {
+          "name": "二叉树",
+          "type": "数据结构",
+          "description": "节点最多两个子节点"
+        },
+        {
+          "name": "堆",
+          "type": "数据结构",
+          "description": "完全二叉树、优先队列实现"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "数组",
+          "target": "数组",
+          "relation": "特点",
+          "description": "连续内存、随机访问、固定大小"
+        },
+        {
+          "source": "链表",
+          "target": "链表",
+          "relation": "特点",
+          "description": "离散内存、动态大小、顺序访问"
+        },
+        {
+          "source": "二叉树",
+          "target": "二叉树",
+          "relation": "特点",
+          "description": "每个节点最多两个子节点"
+        },
+        {
+          "source": "堆",
+          "target": "堆",
+          "relation": "类型",
+          "description": "完全二叉树、优先队列实现"
+        }
+      ]
+    }
+  }
+}

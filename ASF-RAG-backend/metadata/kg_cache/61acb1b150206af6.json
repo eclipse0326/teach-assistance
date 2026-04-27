@@ -1,0 +1,1096 @@
+{
+  "chunks": {
+    "f191cd544dded191215514ae51b4332e": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "算法是基于存储结构的运算实现步骤或过程。它是规则的有限集合，是为解决特定问题而规定的一系列操作。"
+        },
+        {
+          "name": "数据结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数据结构是反映数据的组织形式，包括数据元素集合、元素间关系的集合。"
+        },
+        {
+          "name": "数据对象",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "由性质相同的数据元素构成的集合，是数据集合的一个子集。"
+        },
+        {
+          "name": "数据元素",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "组成数据的基本单位，是数据集合的个体。"
+        },
+        {
+          "name": "线性结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数据元素之间存在着一对一的线性关系。"
+        },
+        {
+          "name": "顺序存储结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "借助元素在存储器中的顺序位置关系来表示数据元素之间的逻辑关系。"
+        },
+        {
+          "name": "原子类型",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "不可再分。"
+        },
+        {
+          "name": "结构类型",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "可以分解，其成分可以是原子的，也可以是结构的。"
+        },
+        {
+          "name": "数据类型",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "一组性质相同的值集合以及定义在这个值集合上的一组操作的总称。"
+        }
+      ],
+      "relationships": []
+    },
+    "839dd6608c91ffb48778c7699140b695": {
+      "entities": [
+        {
+          "name": "数组",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数组的抽象数据类型"
+        },
+        {
+          "name": "块链串",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "块链串的结构描述"
+        },
+        {
+          "name": "数组",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数组的抽象数据类型"
+        },
+        {
+          "name": "数据对象",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数组的元素"
+        },
+        {
+          "name": "线性链表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性链表的基本操作"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "数组",
+          "target": "数组",
+          "relation": "ADT Array",
+          "description": "数组的抽象数据类型定义"
+        },
+        {
+          "source": "数组",
+          "target": "数组",
+          "relation": "顺序存储",
+          "description": "数组的顺序存储方法"
+        },
+        {
+          "source": "数组",
+          "target": "数组",
+          "relation": "数组的维数",
+          "description": "数组的维数定义"
+        },
+        {
+          "source": "数组",
+          "target": "数组",
+          "relation": "数组的长度",
+          "description": "数组的长度定义"
+        }
+      ]
+    },
+    "255a67499fe9a7a56eb3ed226607f117": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表"
+        },
+        {
+          "name": "单链表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "单链表"
+        },
+        {
+          "name": "链式存储",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链式存储"
+        },
+        {
+          "name": "栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "栈"
+        },
+        {
+          "name": "队列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "队列"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "单链表",
+          "relation": "定义",
+          "description": "线性表的单链表"
+        },
+        {
+          "source": "单链表",
+          "target": "链式存储",
+          "relation": "实现",
+          "description": "单链表的链式存储"
+        },
+        {
+          "source": "链式存储",
+          "target": "栈",
+          "relation": "抽象数据类型",
+          "description": "链式存储的栈"
+        },
+        {
+          "source": "栈",
+          "target": "队列",
+          "relation": "抽象数据类型",
+          "description": "栈的队列"
+        }
+      ]
+    },
+    "4e977da11154acf793db31cf9130e367": {
+      "entities": [
+        {
+          "name": "顺序存储结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顺序存储结构：用一组地址连续的存储单元依次存放从队头到队尾的元素，例如用一维数组Queue[MAXSIZE]。"
+        },
+        {
+          "name": "双端顺序栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "双端顺序栈：利用'栈底位置不变，而栈顶位置动态变化'特性。"
+        },
+        {
+          "name": "链栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链栈：采用单链表作为存储结构实现的栈。"
+        },
+        {
+          "name": "队列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "队列：在表的一端插入元素，在另一端删除元素的线性表，具有FIFO (Fist In Fist Out)的特性。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "顺序存储结构",
+          "target": "双端顺序栈",
+          "relation": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "双端顺序栈",
+          "target": "链栈",
+          "relation": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "链栈",
+          "target": "队列",
+          "relation": "结构关系",
+          "weight": 0.0
+        }
+      ]
+    },
+    "a3798c9a06cd0c0ea78114abffa11f5a": {
+      "entities": [
+        {
+          "name": "串",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "字符串的定义"
+        },
+        {
+          "name": "顺序串",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顺序存储结构的定义"
+        },
+        {
+          "name": "堆串",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "堆存储方法的定义"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "顺序串",
+          "target": "链队列",
+          "relation": "结构关系",
+          "description": "链队列的基本操作",
+          "weight": 0.0
+        },
+        {
+          "source": "链队列",
+          "target": "顺序存储结构",
+          "relation": "结构关系",
+          "description": "顺序存储结构的定义",
+          "weight": 0.0
+        },
+        {
+          "source": "顺序串",
+          "target": "堆串",
+          "relation": "结构关系",
+          "description": "堆存储方法的定义",
+          "weight": 0.0
+        }
+      ]
+    },
+    "5b986329189feef29beda5a9c9c28a85": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "算法的五个特性及设计要求"
+        },
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表的抽象数据类型及存储结构"
+        },
+        {
+          "name": "顺序存储",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表的顺序存储结构及其基本操作"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "算法",
+          "target": "线性表",
+          "relation": "抽象数据类型",
+          "description": "线性表的定义和特性",
+          "weight": 0.0
+        },
+        {
+          "source": "线性表",
+          "target": "顺序存储",
+          "relation": "存储结构",
+          "description": "线性表的顺序存储结构",
+          "weight": 0.0
+        }
+      ]
+    },
+    "17ca570803a89a5ee22744db4de097c8": {
+      "entities": [
+        {
+          "name": "二维数组",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二维数组的压缩存储方法"
+        },
+        {
+          "name": "三角矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "三角矩阵的压缩存储方法"
+        },
+        {
+          "name": "带状矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "带状矩阵的压缩存储方法"
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "稀疏矩阵的压缩存储方法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二维数组",
+          "target": "二维数组的压缩存储原则",
+          "relation": "压缩存储原则",
+          "description": "二维数组的压缩存储方法",
+          "weight": 0.0
+        },
+        {
+          "source": "三角矩阵",
+          "target": "三角矩阵的压缩存储方法",
+          "relation": "压缩存储原则",
+          "description": "三角矩阵的压缩存储方法",
+          "weight": 0.0
+        },
+        {
+          "source": "带状矩阵",
+          "target": "带状矩阵的压缩存储方法",
+          "relation": "压缩存储原则",
+          "description": "带状矩阵的压缩存储方法",
+          "weight": 0.0
+        },
+        {
+          "source": "稀疏矩阵",
+          "target": "稀疏矩阵的压缩存储方法",
+          "relation": "压缩存储原则",
+          "description": "稀疏矩阵的压缩存储方法",
+          "weight": 0.0
+        }
+      ]
+    },
+    "67a5bfd2e1dc72cb3aa8dbaa975fd984": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "转置",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "列序递增转置法",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "十字链表",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "树",
+          "type": "概念|算法",
+          "description": ""
+        },
+        {
+          "name": "二叉树",
+          "type": "概念|算法",
+          "description": ""
+        }
+      ],
+      "relationships": [
+        {
+          "source": "算法5.1",
+          "target": "稀疏矩阵转置经典算法",
+          "relation": "算法",
+          "description": "算法5.1 稀疏矩阵转置经典算法",
+          "weight": 0.0
+        },
+        {
+          "source": "算法5.1",
+          "target": "列序递增转置法",
+          "relation": "算法",
+          "description": "列序递增转置法采用三元组表节约了存储空间",
+          "weight": 0.0
+        },
+        {
+          "source": "算法5.1",
+          "target": "十字链表",
+          "relation": "算法",
+          "description": "十字链表中结点的结构示意图",
+          "weight": 0.0
+        },
+        {
+          "source": "树",
+          "target": "二叉树",
+          "relation": "树",
+          "description": "树与二叉树",
+          "weight": 0.0
+        }
+      ]
+    },
+    "121dd7f5421dbb5e49f7a8b2ec4f2daf": {
+      "entities": [
+        {
+          "name": "双亲结点",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "一个结点"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "双亲结点",
+          "target": "根结点",
+          "relation": "属性",
+          "description": "根结点的双亲结点",
+          "weight": 0.0
+        }
+      ]
+    },
+    "b1173ebf665d072433f9ae06557f54a8": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二叉树"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "二叉树",
+          "relation": "存储方式",
+          "description": "二叉链表方式存储的二叉树"
+        },
+        {
+          "source": "二叉树",
+          "target": "遍历算法",
+          "relation": "遍历算法",
+          "description": "先序遍历（DLR）操作过程"
+        },
+        {
+          "source": "二叉树",
+          "target": "中序遍历",
+          "relation": "中序遍历（LDR）",
+          "description": "中序遍历（对称遍历）"
+        },
+        {
+          "source": "二叉树",
+          "target": "后序遍历（LRD）",
+          "relation": "后序遍历（LRD）",
+          "description": "后序遍历"
+        }
+      ]
+    },
+    "24f0cc031def0780270ebd20ed3a6ca3": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "算法|算法思想|数据结构|术语|其他",
+          "description": "算法思想、二叉树、中序遍历、哈夫曼树等"
+        },
+        {
+          "name": "二叉树",
+          "type": "数据结构|术语",
+          "description": "树的结构，包含左右子树"
+        },
+        {
+          "name": "中序遍历",
+          "type": "概念|算法|数据结构|术语",
+          "description": "遍历二叉树的方法，包括非递归实现"
+        },
+        {
+          "name": "哈夫曼树",
+          "type": "术语",
+          "description": "带权路径长度的树结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "中序遍历二叉树的非递归算法",
+          "target": "中序遍历二叉树的非递归算法（调用栈操作）",
+          "relation": "算法思想",
+          "description": "从根结点开始，进栈并遍历左子树",
+          "weight": 0.0
+        },
+        {
+          "source": "中序遍历二叉树的非递归算法",
+          "target": "中序遍历二叉树的非递归算法（直接实现栈操作）",
+          "relation": "算法思想",
+          "description": "退栈并访问根结点",
+          "weight": 0.0
+        }
+      ]
+    },
+    "4dc88a0ead3b9cb7fb33c5e0d1076d6a": {
+      "entities": [
+        {
+          "name": "哈夫曼树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "由n个带权叶子结点构成的所有二叉树中带权路径长度WPL最小的二叉树"
+        },
+        {
+          "name": "构造算法",
+          "type": "算法|算法思想",
+          "description": "以静态三叉链表存放哈夫曼树，初始化2n-1个结点，其中前n个为叶结点，后n-1为非叶结点，逐步构建哈夫曼树"
+        },
+        {
+          "name": "哈夫曼编码",
+          "type": "概念|算法|数据结构",
+          "description": "对具有n个叶结点的哈夫曼树，通过编码系统实现的变长编码"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "构造算法",
+          "target": "哈夫曼树",
+          "relation": "构造步骤",
+          "description": "用给定的n个权值{w1,w2,...wn}对应的n棵二叉树的森林F={T1,T2,...,Tn}，其中每一棵二叉树Ti(1≤i≤n)都只有一个权值为wi的根结点，其左、右子树为空。",
+          "weight": 0.0
+        },
+        {
+          "source": "哈夫曼编码",
+          "target": "构造算法",
+          "relation": "算法思想",
+          "description": "以静态三叉链表存放哈夫曼树，初始化2n-1个结点，其中前n个为叶结点，后n-1为非叶结点，逐步构建哈夫曼树",
+          "weight": 0.0
+        }
+      ]
+    },
+    "d020f774f9c76411f2002811bbd238ee": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于表示问题的核心概念"
+        },
+        {
+          "name": "非递归遍历算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "描述问题中涉及的算法类型"
+        },
+        {
+          "name": "堆栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "存储问题中路径信息的结构"
+        },
+        {
+          "name": "后序遍历",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "算法中的特定遍历顺序"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "非递归遍历算法",
+          "relation": "算法",
+          "description": "算法类型",
+          "weight": 0.0
+        },
+        {
+          "source": "非递归遍历算法",
+          "target": "堆栈",
+          "relation": "路径",
+          "description": "路径内容",
+          "weight": 0.0
+        }
+      ]
+    },
+    "6030b6cd1169c8148bbf4e0a622e6123": {
+      "entities": [
+        {
+          "name": "邻接矩阵",
+          "type": "数据结构",
+          "description": "图的存储结构"
+        },
+        {
+          "name": "邻接表",
+          "type": "数据结构",
+          "description": "图的存储结构"
+        },
+        {
+          "name": "算法",
+          "type": "概念",
+          "description": "图的存储和计算算法"
+        },
+        {
+          "name": "顶点",
+          "type": "概念",
+          "description": "图中的节点"
+        },
+        {
+          "name": "边",
+          "type": "概念",
+          "description": "图中的边"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "概念",
+          "description": "图的邻接矩阵表示法"
+        },
+        {
+          "name": "邻接表",
+          "type": "概念",
+          "description": "图的邻接表表示法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接矩阵",
+          "target": "邻接表",
+          "relation": "存储结构",
+          "weight": 0.0
+        }
+      ]
+    },
+    "37478a6bffd9d70b1acb056ee93d8977": {
+      "entities": [
+        {
+          "name": "GraphKind",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图的种类"
+        },
+        {
+          "name": "VertexNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "ArcNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "ArcNode"
+        },
+        {
+          "name": "VertexData",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "GraphKind",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图的种类"
+        },
+        {
+          "name": "VertexNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "VertexData",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "ArcNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "ArcNode"
+        },
+        {
+          "name": "VertexNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "GraphKind",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图的种类"
+        },
+        {
+          "name": "VertexNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "VertexData",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "GraphKind",
+          "target": "VertexData",
+          "relation": "图的种类",
+          "description": "图的种类"
+        },
+        {
+          "source": "VertexNode",
+          "target": "VertexData",
+          "relation": "顶点数据",
+          "description": "顶点数据"
+        },
+        {
+          "source": "ArcNode",
+          "target": "VertexNode",
+          "relation": "ArcNode",
+          "description": "ArcNode"
+        },
+        {
+          "source": "VertexData",
+          "target": "VertexNode",
+          "relation": "VertexData",
+          "description": "VertexData"
+        }
+      ]
+    },
+    "949081d1318d213567651e1facfdabdf": {
+      "entities": [
+        {
+          "name": "生成树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "一个连通图的生成树（回顾）：指具有n个顶点的连通图G的一个极小连通子图，它含有图G中的全部顶点，但只有足已构成一棵树的n-1条边。特点：一个连通图可能有若干颗不同的生成树。一颗具有n个顶点的生成树有且仅有n-1条边，如果再添加一条边，必定构成一个环。具有n-1条边只是生成树的必要非充分条件，可能n-1条边构成的图不是一个连通图，因而也没有生成树。"
+        },
+        {
+          "name": "最小生成树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "在一个连通网的所有生成树中，各边的代价之和最小的那棵生成树。它又被称为最小代价生成树。"
+        },
+        {
+          "name": "拓扑序列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "在有向图G=（V, {E}）中，V中顶点的线性序列（vi1,,vi2,,vi3,…,vin）称为拓扑序列，如果对序列中任意两个顶点vi、vj，在G中有一条从vi到vj的路径，则在序列中vi必排在vj之前。"
+        },
+        {
+          "name": "AOV-网",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用顶点表示活动，用弧表示活动间的优先关系的有向无环图，称为顶点表示活动的网（Activity On Vertex Network）。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "生成树",
+          "target": "最小生成树",
+          "relation": "生成树",
+          "description": "一个连通图的生成树（回顾）：指具有n个顶点的连通图G的一个极小连通子图，它含有图G中的全部顶点，但只有足已构成一棵树的n-1条边。特点：一个连通图可能有若干颗不同的生成树。一颗具有n个顶点的生成树有且仅有n-1条边，如果再添加一条边，必定构成一个环。具有n-1条边只是生成树的必要非充分条件，可能n-1条边构成的图不是一个连通图，因而也没有生成树。",
+          "weight": 0.0
+        },
+        {
+          "source": "最小生成树",
+          "target": "拓扑序列",
+          "relation": "最小生成树",
+          "description": "在一个连通网的所有生成树中，各边的代价之和最小的那棵生成树。它又被称为最小代价生成树。",
+          "weight": 0.0
+        },
+        {
+          "source": "拓扑序列",
+          "target": "AOV-网",
+          "relation": "拓扑序列",
+          "description": "在有向图G=（V, {E}）中，V中顶点的线性序列（vi1,,vi2,,vi3,…,vin）称为拓扑序列，如果对序列中任意两个顶点vi、vj，在G中有一条从vi到vj的路径，则在序列中vi必排在vj之前。",
+          "weight": 0.0
+        }
+      ]
+    },
+    "e44630d542253776bead55077156dc0f": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于解决特定问题的方法或技术"
+        },
+        {
+          "name": "邻接表存储结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储图结构的特定数据表示方式"
+        },
+        {
+          "name": "拓扑排序",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于处理图结构的特定排序算法"
+        },
+        {
+          "name": "迪杰斯特拉算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于求解最短路径的算法"
+        },
+        {
+          "name": "弗洛伊德算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于查找任意两点最短路径的算法"
+        },
+        {
+          "name": "时间复杂度分析",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于描述算法复杂性的分析"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "算法",
+          "target": "邻接表存储结构",
+          "relation": "基本思想",
+          "description": "用于存储图结构的特定数据表示方式"
+        },
+        {
+          "source": "算法",
+          "target": "拓扑排序",
+          "relation": "算法步骤",
+          "description": "用于处理图结构的特定排序算法"
+        },
+        {
+          "source": "迪杰斯特拉算法",
+          "target": "时间复杂度分析",
+          "relation": "算法步骤",
+          "description": "用于求解最短路径的算法"
+        },
+        {
+          "source": "弗洛伊德算法",
+          "target": "时间复杂度分析",
+          "relation": "算法步骤",
+          "description": "用于查找任意两点最短路径的算法"
+        }
+      ]
+    },
+    "dabab1451d902e807cfe2184ca53a9a8": {
+      "entities": [
+        {
+          "name": "顺序查找法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前），直到成功或失败。"
+        },
+        {
+          "name": "折半查找法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "折半查找法对待查找的列表有两个要求：列表必须采用顺序存储结构。②列表必须按关键字大小有序排列。"
+        },
+        {
+          "name": "分块查找法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "分块查找法要求将列表组织成以下两种索引顺序结构：①首先将列表分成若干个块（子表）。一般情况下，块的长度均匀，最后一块可以不满。每块中元素任意排列，即块内无序，但块与块之间有序。②构造一个索引表。每个索引项对应一个块，并记录相应块的起始位置，和该块中的最大关键字（或最小关键字）。索引表按关键字的大小有序排列。"
+        },
+        {
+          "name": "二叉排序树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二叉排序树：又称二叉查找树，是一棵空树或者是具有如下性质的二叉树：①若它的左子树非空，则左子树上所有结点的值均小于根结点的值；②若它的右子树非空，则右子树上所有结点的值均大于根结点的值；③它的左右子树也分别为二叉排序树。"
+        },
+        {
+          "name": "平衡二叉排序树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "平衡二叉排序树：是一颗空树或者是具有下列性质的二叉排序树：①左子树与右子树高度之差的绝对值小于等于1。②左子树和右子树也是平衡二叉排序树。平衡因子：结点的左子树深度与右子树深度之差。"
+        },
+        {
+          "name": "哈希法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "哈希法：又称散列法、杂凑法、关键字地址计算法等，是计算式查找的方法，即对关键字直接计算其在列表中的存储地址：Addr = H(key)。创建哈希表时，把关键字为k的元素直接存入地址为H(k)的单元；查找关键字为k的元素时，利用哈希函数计算出该元素的存储位置p= H(k)，从而达到按关键字直接存取元素的目的。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "顺序查找法",
+          "target": "顺序查找法",
+          "relation": "特点",
+          "description": "表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前），直到成功或失败。"
+        },
+        {
+          "source": "折半查找法",
+          "target": "折半查找法",
+          "relation": "要求",
+          "description": "列表必须采用顺序存储结构。②列表必须按关键字大小有序排列。"
+        },
+        {
+          "source": "分块查找法",
+          "target": "分块查找法",
+          "relation": "要求",
+          "description": "分块查找法要求将列表组织成以下两种索引顺序结构：①首先将列表分成若干个块（子表）。一般情况下，块的长度均匀，最后一块可以不满。每块中元素任意排列，即块内无序，但块与块之间有序。②构造一个索引表。每个索引项对应一个块，并记录相应块的起始位置，和该块中的最大关键字（或最小关键字）。索引表按关键字的大小有序排列。"
+        },
+        {
+          "source": "二叉排序树",
+          "target": "二叉排序树",
+          "relation": "插入",
+          "description": "已知一个关键字值为key的结点s，将结点s插入二叉排序树。"
+        },
+        {
+          "source": "二叉排序树",
+          "target": "二叉排序树",
+          "relation": "查找",
+          "description": "在二叉排序树上查找，类似折半查找，也是逐步缩小查找范围的过程。"
+        },
+        {
+          "source": "二叉排序树",
+          "target": "二叉排序树",
+          "relation": "删除",
+          "description": "从二叉排序树中删除一个结点，删除后所得的二叉树仍然需要满足二叉排序树的性质。"
+        },
+        {
+          "source": "平衡二叉排序树",
+          "target": "平衡二叉排序树",
+          "relation": "插入",
+          "description": "平衡二叉排序树的插入算法。"
+        },
+        {
+          "source": "平衡二叉排序树",
+          "target": "平衡二叉排序树",
+          "relation": "查找",
+          "description": "平衡二叉排序树的查找算法。"
+        },
+        {
+          "source": "哈希法",
+          "target": "哈希法",
+          "relation": "计算",
+          "description": "哈希法：对关键字直接计算其在列表中的存储地址：Addr = H(key)。创建哈希表时，把关键字为k的元素直接存入地址为H(k)的单元；查找关键字为k的元素时，利用哈希函数计算出该元素的存储位置p= H(k)，从而达到按关键字直接存取元素的目的。"
+        }
+      ]
+    },
+    "869ee8e7a0d036e039a455eea6ec8671": {
+      "entities": [
+        {
+          "name": "KeyType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于记录数据的关键字类型"
+        },
+        {
+          "name": "RecordType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储记录的基本数据结构类型"
+        },
+        {
+          "name": "HashTable",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储哈希表的记录类型"
+        },
+        {
+          "name": "RecordType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储记录的基本数据结构类型"
+        },
+        {
+          "name": "KeyType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于记录数据的关键字类型"
+        },
+        {
+          "name": "Node",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储节点的基本结构类型"
+        },
+        {
+          "name": "BF",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于表示平衡二叉树的平衡因子"
+        },
+        {
+          "name": "Node",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于存储节点的基本结构类型"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "struct",
+          "target": "AVLNode",
+          "relation": "定义结构",
+          "description": "定义AVL节点的结构类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "AVLTree",
+          "relation": "定义AVL树的结构类型",
+          "description": "定义AVL树的结构类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "RecordType",
+          "relation": "定义记录类型",
+          "description": "定义记录类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "RecordType",
+          "relation": "定义记录类型",
+          "description": "定义记录类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "RecordType",
+          "relation": "定义记录类型",
+          "description": "定义记录类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "RecordType",
+          "relation": "定义记录类型",
+          "description": "定义记录类型",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "RecordType",
+          "relation": "定义记录类型",
+          "description": "定义记录类型",
+          "weight": 0.0
+        }
+      ]
+    },
+    "f1222b8906ce28cd43ea2115811eced1": {
+      "entities": [
+        {
+          "name": "算法",
+          "description": "算法|算法思想|数据结构|术语|其他"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "9.2.1",
+          "target": "直接插入排序",
+          "relation": "算法思想",
+          "description": "将第i个记录的关键字Ki顺次与其前面记录的关键字Ki-1，Ki-2，…K1比较，将所有关键字大于Ki的记录依次向后移动一个位置，直到遇见一个关键字小于或者等于Ki的记录Kj；此时Kj后面必为一个空位置，将记录Ki插入该空位置。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.2.2",
+          "target": "折半插入排序",
+          "relation": "算法思想",
+          "description": "将第i个记录插入有序记录r[1..i-1]中，利用折半查找思想，快速确定插入新记录的位置。将low初始化为1，high为i-1，计算中间位置mid=(low+high)/2；用中间位置记录的关键字Kmid与待插入的第i个记录r[i].key比较，根据比较的大小调整low或者high，直到high<low为止；将low到i-1的记录依次向后移动一个位置，将第i个记录插入low位置。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.2.3",
+          "target": "希尔排序",
+          "relation": "算法思想",
+          "description": "首先将待排序记录序列分割成若干较小的子序列进行直接插入排序；然后取i=i+1，记录间的增量为di(di<di-1)，在整个待排序记录序列中，将所有间隔为di的记录分成一组，组内进行直接插入排序；重复步骤②若干次，直至记录间的增量di=1，此时只有一个子序列，对该序列进行直接插入排序，完成整个排序过程。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.3",
+          "target": "一趟希尔排序",
+          "relation": "算法思想",
+          "description": "首先选定记录间的增量（距离）为di(i=1)，在整个待排序记录序列中将所有间隔为d1的记录分成一组，组内进行直接插入排序；然后取i=i+1，记录间的增量为di(di<di-1)，在整个待排序记录序列中，将所有间隔为di的记录分成一组，组内进行直接插入排序；重复步骤②若干次，直至记录间的增量di=1，此时只有一个子序列，对该序列进行直接插入排序，完成整个排序过程。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.4",
+          "target": "冒泡排序",
+          "relation": "算法思想",
+          "description": "反复扫描待排序记录序列，在扫描的过程中顺次比较相邻的两个元素的大小，若逆序就交换位置。以升序为例，第i轮扫描从头开始，对前n-i+1个记录扫描一次，让这轮序列中最大关键字记录放置到本轮序列的末尾（这也是该记录应在的位置）。如果某一趟扫描没有出现一个逆序，则结束排序过程。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.5",
+          "target": "快速排序",
+          "relation": "算法思想",
+          "description": "从待排序记录中选取一个记录（通常选取第一个记录）为枢轴，其关键字设为K1，然后将其余关键字小于K1的记录移到其前面，关键字大于K1的记录移到其后面。通过一次划分后，找到K1所在记录在序列中的位置，且K1将待排序序列分成两个子表，前一子表中所有记录的关键字均不大于K1，后一子表中所有记录的关键字均不小于K1。继续按上述原则进行分割，直到所有子表的表长不超过1为止，排序结束。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.7",
+          "target": "简单选择排序",
+          "relation": "算法思想",
+          "description": "第i趟排序通过n-i次关键字的比较，从n-i+1个记录中选出关键字最小的记录k，并和第i个记录进行交换。共需进行n-1趟比较，直到所有记录排序完成为止。",
+          "weight": 0.0
+        },
+        {
+          "source": "9.4.3",
+          "target": "堆排序",
+          "relation": "算法思想",
+          "description": "堆排序的存储：把待排序的记录的关键字存放在数组r[1..n]之中，将r看成一棵完全二叉树的顺序存储表示，每个结点表示一个记录，第一个记录r[1]作为二叉树的根，以下各记录r[2...n]依次逐层从左到右顺序排列，任意结点r[i]的左孩子是r[2i]，右孩子是r[2i+1],双亲是r[i/2]。",
+          "weight": 0.0
+        }
+      ]
+    },
+    "195ca906ec79f1bd80051e959b9e43ab": {
+      "entities": [
+        {
+          "name": "堆",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "大根堆：各结点关键字的值满足条件：r[i].key≥r[2i].key并且r[i].key≥r[2i+1].key(i=1,2, ... n/2 )的完全二叉树称为大根堆。"
+        },
+        {
+          "name": "排序法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "堆排序需要解决的两个问题：建初堆：按照堆定义，根据待排序的初始序列建初堆。重建堆：当堆顶元素改变后，调整完全二叉树重新成为堆。"
+        },
+        {
+          "name": "归并排序",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "基于合并思想，每次将两个或两个以上有序表合并成一个新的有序表。每次将k个有序表合并成一个有序表的方法称k-路归并排序。每次将两个有序表合并成一个有序表的方法称为2-路归并排序。"
+        },
+        {
+          "name": "链式基数排序",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "基数排序属于上述‘低位优先’排序法，排序时先按最低位的值对记录进行初步排序。"
+        }
+      ],
+      "relationships": []
+    }
+  }
+}

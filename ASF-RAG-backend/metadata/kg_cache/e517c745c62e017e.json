@@ -1,0 +1,90 @@
+{
+  "chunks": {
+    "50218bcb8a140f6aa61422b70693f72a": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "type": "Algorithm"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure"
+        },
+        {
+          "name": "Complexity",
+          "type": "Concept"
+        },
+        {
+          "name": "Problem_Scale",
+          "type": "Concept"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Problem_Scale",
+          "target": "Algorithm",
+          "relation": "Has_Time_Complexity",
+          "description": "Time complexity of the algorithm",
+          "weight": 0.0
+        }
+      ]
+    },
+    "0c8d185819c9033502c571bc4145b874": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "数据结构"
+        },
+        {
+          "name": "Algorithm",
+          "type": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "数据结构"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure",
+          "description": "数据结构"
+        },
+        {
+          "name": "Algorithm",
+          "type": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure",
+          "description": "数据结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Data_Structure",
+          "target": "Data_Structure",
+          "relation": "Contains",
+          "description": "数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Time_Complexity",
+          "description": "时间复杂度",
+          "weight": 0.0
+        },
+        {
+          "source": "Data_Structure",
+          "target": "Data_Structure",
+          "relation": "Is_A",
+          "description": "数据结构",
+          "weight": 0.0
+        }
+      ]
+    }
+  }
+}

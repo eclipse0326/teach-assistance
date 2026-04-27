@@ -1,0 +1,225 @@
+{
+  "chunks": {
+    "50218bcb8a140f6aa61422b70693f72a": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "type": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure",
+          "description": "数据结构"
+        },
+        {
+          "name": "Complexity",
+          "type": "Algorithm",
+          "description": "时间复杂度"
+        },
+        {
+          "name": "Application",
+          "type": "Application",
+          "description": "应用"
+        },
+        {
+          "name": "Code_Snippet",
+          "type": "Algorithm",
+          "description": "程序"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Data_Structure",
+          "relation": "Has_Operation",
+          "description": "算法的执行时间与问题规模",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Complexity",
+          "relation": "Has_Time_Complexity",
+          "description": "算法的时间性能分析",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Code_Snippet",
+          "relation": "Has_Space_Complexity",
+          "description": "算法的执行时间与问题规模",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Application",
+          "relation": "Applied_To",
+          "description": "算法的应用",
+          "weight": 0.0
+        }
+      ]
+    },
+    "0c8d185819c9033502c571bc4145b874": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet"
+        },
+        {
+          "name": "Data_Element",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet"
+        },
+        {
+          "name": "Data_StructURE",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet"
+        },
+        {
+          "name": "Data_Type",
+          "type": "Data_StructURE|Concept"
+        },
+        {
+          "name": "ADT",
+          "type": "Concept"
+        },
+        {
+          "name": "LinearList",
+          "type": "Data_StructURE"
+        },
+        {
+          "name": "Storage_StructURE",
+          "type": "Data_StructURE"
+        },
+        {
+          "name": "Algorithm",
+          "type": "Algorithm"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Data_StructURE",
+          "target": "Data_StructURE",
+          "relation": "Contains",
+          "description": "表示数据结构的定义",
+          "weight": 0.0
+        },
+        {
+          "source": "Data_StructURE",
+          "target": "Data_StructURE",
+          "relation": "Has_Space_Complexity",
+          "description": "表示存储结构的复杂度",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Applied_To",
+          "description": "表示算法的应用场景",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "description": "表示算法的基本操作",
+          "weight": 0.0
+        }
+      ]
+    },
+    "285eed9aacbf884567b7ff4db0cb9d88": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "type": "Algorithm"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure"
+        },
+        {
+          "name": "Complexity",
+          "type": "Algorithm"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Data_Structure",
+          "relation": "Has_Operation",
+          "description": "用于描述算法的操作",
+          "weight": 0.0
+        },
+        {
+          "source": "Data_Structure",
+          "target": "Algorithm",
+          "relation": "Is_A",
+          "description": "域是Algorithm的领域",
+          "weight": 0.0
+        }
+      ]
+    },
+    "fe5533e91cd2e8c2f5ec48f97c8b4d05": {
+      "entities": [
+        {
+          "name": "数据结构",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "数据结构是反映数据的组织形式，包括数据元素集合、元素间关系的集合。"
+        },
+        {
+          "name": "数据元素",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "组成数据的基本单位，是数据集合的个体。"
+        },
+        {
+          "name": "数据对象",
+          "type": "Data_StructURE|Concept",
+          "description": "由性质相同的数据元素构成的集合，是数据集合的一个子集。"
+        },
+        {
+          "name": "数据类型",
+          "type": "Concept",
+          "description": "一组性质相同的值集合以及定义在这个值集合上的一组操作的总称。"
+        },
+        {
+          "name": "算法",
+          "type": "Concept",
+          "description": "基于存储结构的运算实现步骤或过程。它是规则的有限集合，是为解决特定问题而规定的一系列操作。"
+        },
+        {
+          "name": "存储结构",
+          "type": "Concept",
+          "description": "逻辑结构在计算机中的存储映像（实现），包括数据元素的映像和关系的映像。其中数据元素的逻辑关系在计算机中的表示方法：顺序映象（顺序存储结构）和非顺序映象（非顺序存储结构）。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "数据结构",
+          "target": "存储结构",
+          "relation": "Has_Time_Complexity",
+          "description": "算法与数据结构的复杂度相关",
+          "weight": 0.0
+        },
+        {
+          "source": "数据结构",
+          "target": "存储结构",
+          "relation": "Has_Space_Complexity",
+          "description": "算法与数据结构的存储相关性",
+          "weight": 0.0
+        },
+        {
+          "source": "数据结构",
+          "target": "数据结构",
+          "relation": "Is_A",
+          "description": "数据结构的类型",
+          "weight": 0.0
+        },
+        {
+          "source": "数据结构",
+          "target": "算法",
+          "relation": "Has_Operation",
+          "description": "算法的执行操作",
+          "weight": 0.0
+        }
+      ]
+    }
+  }
+}

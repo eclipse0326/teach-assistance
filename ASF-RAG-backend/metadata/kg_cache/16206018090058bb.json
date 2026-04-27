@@ -1,0 +1,4781 @@
+{
+  "chunks": {
+    "4e977da11154acf793db31cf9130e367": {
+      "entities": [
+        {
+          "name": "struct",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "结构体定义"
+        },
+        {
+          "name": "typedef",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "定义类型"
+        },
+        {
+          "name": "StackElementType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "栈元素类型"
+        },
+        {
+          "name": "elem",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "元素"
+        },
+        {
+          "name": "top",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "栈顶元素的下标"
+        },
+        {
+          "name": "front",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "队列的队头"
+        },
+        {
+          "name": "rear",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "队列的队尾"
+        },
+        {
+          "name": "Queue",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "队列"
+        },
+        {
+          "name": "ADT",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "抽象数据类型"
+        },
+        {
+          "name": "LinkStackNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链表节点"
+        },
+        {
+          "name": "LinkStack",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链栈"
+        },
+        {
+          "name": "LinkQueueNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链队列节点"
+        },
+        {
+          "name": "LinkQueue",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链队列"
+        },
+        {
+          "name": "node",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "data",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "next",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "队列的顺序存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将新元素送入",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所指的元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所指的单元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Fist",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "入队时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "出队时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的特性",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "取出",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "号栈",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "队列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "QueueElementType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即约定最后一个单元的后继是第一个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将多个链栈的栈顶指针放在一个一维",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将栈的插入和删除操作限制在头结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用一组地址连续的存储单元依次存放",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "空的链队列的队头指针和队尾指针均",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "队尾指针指向当前队列中的最后一个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "首先为两个栈申请一个共享的一维数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所以将链表的头指针作为栈顶指针",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "采用单链表作为存储结构实现的栈",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将顺序队列的数组看成一个环状",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的栈底分别放在一维数组的两端",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "struct",
+          "target": "typedef",
+          "relation": "定义",
+          "description": "结构体定义类型"
+        },
+        {
+          "source": "typedef",
+          "target": "StackElementType",
+          "relation": "类型",
+          "description": "栈元素类型"
+        },
+        {
+          "source": "StackElementType",
+          "target": "elem",
+          "relation": "元素",
+          "description": "元素"
+        },
+        {
+          "source": "elem",
+          "target": "top",
+          "relation": "栈顶元素",
+          "description": "栈顶元素"
+        },
+        {
+          "source": "struct",
+          "target": "StackElementType",
+          "relation": "类型",
+          "description": "结构体类型"
+        },
+        {
+          "source": "typedef",
+          "target": "StackElementType",
+          "relation": "类型",
+          "description": "栈元素类型"
+        },
+        {
+          "source": "struct",
+          "target": "LinkStackNode",
+          "relation": "节点",
+          "description": "链表节点"
+        },
+        {
+          "source": "struct",
+          "target": "LinkStack",
+          "relation": "链栈",
+          "description": "链栈结构"
+        },
+        {
+          "source": "struct",
+          "target": "LinkQueueNode",
+          "relation": "节点",
+          "description": "链队列节点"
+        },
+        {
+          "source": "struct",
+          "target": "LinkQueue",
+          "relation": "链队列",
+          "description": "链队列结构"
+        }
+      ]
+    },
+    "839dd6608c91ffb48778c7699140b695": {
+      "entities": [
+        {
+          "name": "struct",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "结构"
+        },
+        {
+          "name": "typedef",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "定义"
+        },
+        {
+          "name": "data",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数据对象"
+        },
+        {
+          "name": "Block",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "块"
+        },
+        {
+          "name": "LString",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "块链结构"
+        },
+        {
+          "name": "chBlock",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "块链结构的结点"
+        },
+        {
+          "name": "index1",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "indexn",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "size",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "temp",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "malloc",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对于二维数组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "char",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "next",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "tval",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "BLOCK_SIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "每比较一步就后移一位",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "当前比较的字符",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "当前结点大小为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将字符串常量",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "最初是指向串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的值赋值给串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Array",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "aj1j2",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个存储单元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若下标合法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Amxn",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "head",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "tail",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的地址为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的线性表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的首字符",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "struct",
+          "target": "Block",
+          "relation": "结构关系",
+          "description": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "Block",
+          "target": "LString",
+          "relation": "结构关系",
+          "description": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "Block",
+          "target": "chBlock",
+          "relation": "结构关系",
+          "description": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "LString",
+          "target": "Block",
+          "relation": "结构关系",
+          "description": "结构关系",
+          "weight": 0.0
+        },
+        {
+          "source": "LString",
+          "target": "chBlock",
+          "relation": "结构关系",
+          "description": "结构关系",
+          "weight": 0.0
+        }
+      ]
+    },
+    "a3798c9a06cd0c0ea78114abffa11f5a": {
+      "entities": [
+        {
+          "name": "结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "链队列的基本结构，包含front和rear指针"
+        },
+        {
+          "name": "链队列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于顺序存储队列的结构，支持插入、删除和比较操作"
+        },
+        {
+          "name": "MAXLEN",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "rear",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "front",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "malloc",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "temp",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "LinkQueueNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "由于是顺序串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "chars",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "tval",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "模式匹配",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "串长",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "和串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "子串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "开始",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "差值的正负反映两个串的大小",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "队列的顺序存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "数字或其它字符",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "String",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将字符串常量",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将新元素送入",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的值赋值给串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "顺序串的定位",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "可以是字母",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "定长顺序串",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所指的元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所指的单元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "a1a2",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "char",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "串的长度",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "入队时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "出队时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则将串",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "链队列",
+          "target": "front",
+          "relation": "结构关系",
+          "description": "链队列的front指针"
+        },
+        {
+          "source": "链队列",
+          "target": "rear",
+          "relation": "结构关系",
+          "description": "链队列的rear指针"
+        }
+      ]
+    },
+    "255a67499fe9a7a56eb3ed226607f117": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表的定义和操作"
+        },
+        {
+          "name": "栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "栈的定义和操作"
+        },
+        {
+          "name": "算法思想",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表的合并和删除算法思想"
+        },
+        {
+          "name": "顺序栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顺序栈的实现与操作"
+        },
+        {
+          "name": "双端栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "双端栈的实现与操作"
+        },
+        {
+          "name": "个结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "next",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "elem",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的线性表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "StackElementType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "也是非递减有序排列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Stack",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "变成长度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "NULL",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Node",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "使长度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "开始",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将读入数据存放到新结点的数据域中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从一个带头结点的空链表开始",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其元素均为非递减有序排列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Stack_Size",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直至读入结束标志为止",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "LinkList",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "重复读入数据",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "指向该结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "生成新结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "插入到表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的初值为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "单链表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用指针",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "由指针",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "号栈",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "指示",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "指针",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的第",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "动态指示栈顶元素在顺序栈中的位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后将新结点插入到当前链表的头结",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "线性表的长度",
+          "relation": "算法描述",
+          "description": "线性表的长度计算算法",
+          "weight": 0.0
+        },
+        {
+          "source": "线性表",
+          "target": "线性表的合并",
+          "relation": "算法思想",
+          "description": "线性表的合并算法思想",
+          "weight": 0.0
+        },
+        {
+          "source": "线性表",
+          "target": "线性表的删除",
+          "relation": "算法描述",
+          "description": "线性表的删除操作算法",
+          "weight": 0.0
+        },
+        {
+          "source": "线性表",
+          "target": "线性表的链式存储",
+          "relation": "结构关系",
+          "description": "链式存储的实现",
+          "weight": 0.0
+        },
+        {
+          "source": "栈",
+          "target": "栈的定义",
+          "relation": "概念",
+          "description": "栈的定义",
+          "weight": 0.0
+        }
+      ]
+    },
+    "5b986329189feef29beda5a9c9c28a85": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "线性表的抽象数据类型定义"
+        },
+        {
+          "name": "elem",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的线性表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题规模",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "记做",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法的执行时间与问题规模",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "LinearList",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "也是非递减有序排列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAXSIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "变成长度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "插入到表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的第",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "与算法在运行时所耗费的时间给出一",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "使得线性表中在逻辑结构上相邻的数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其中时间代价和空间代价是两个主要",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其余常见的算法时间复杂度还有平方",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即每个数据元素最多有一个直接前驱",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即物理存储的相邻关系反映了逻辑上",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于某种程序设计语言对一个算法的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所有可能的输入实例均以等概率出现",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "是为解决特定问题而规定的一系列操",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用一组地址连续的存储单元依次存储",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直接受实际运行环境的软硬件条件影",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法对于一切合法的输入数据都能得",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法对于几组输入数据能够得出满足",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法执行时间取决于两者的综合效果",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "线性表中相邻数据元素之间存在着序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "线性表的概念及其抽象数据类型定义",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "线性表的顺序存储结构可通过一维数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "而这需要从数组的最后一个元素开始",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "苛刻且带有刁难性的几组输入数据能",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "讨论的时间复杂度均指最坏时间复杂",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "该语句在一个算法中重复执行的次数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "通常以这层意义的正确性作为衡量一",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中未扫描完的剩余所有元素放到表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "主要依据算法占用机器资源的数量",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "据元素存储在相邻的物理存储单元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "数组中需要提供插入新元素的位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法应当满足具体问题的求解需求",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "顺序存储结构",
+          "relation": "顺序存储",
+          "description": "顺序表的顺序存储结构",
+          "weight": 0.0
+        }
+      ]
+    },
+    "f191cd544dded191215514ae51b4332e": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "算法|算法",
+          "description": "算法是基于存储结构的运算实现步骤或过程。它是规则的有限集合，是为解决特定问题而规定的一系列操作。"
+        },
+        {
+          "name": "数据结构",
+          "type": "数据结构|数据结构",
+          "description": "数据结构是反映数据的组织形式，包括数据元素集合、元素间关系的集合。其形式化定义为一个二元组：Data_Structure = (D, R)"
+        },
+        {
+          "name": "LinearList",
+          "type": "数据结构|数据结构",
+          "description": "LinearList的ADT表示：ADT <ADT名> { 数据对象D :<数据对象的定义> 结构关系R :<结构关系的定义> 基本操作P :<基本操作的定义> }ADT <ADT名>;"
+        },
+        {
+          "name": "原子类型",
+          "type": "数据类型|数据类型",
+          "description": "原子类型：不可再分。结构类型：可以分解，其成分可以是原子的，也可以是结构的。"
+        },
+        {
+          "name": "操作结果",
+          "type": "数据结构|数据结构",
+          "description": "操作结果：将L初始化为空表。"
+        },
+        {
+          "name": "顺序存储结构",
+          "type": "存储结构|存储结构",
+          "description": "顺序存储结构：借助元素在存储器中的顺序位置关系来表示数据元素之间的逻辑关系。"
+        },
+        {
+          "name": "数据对象",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "数据元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "树状结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "结构关系",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "结构类型",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "PERSON_NUM",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "NAME_LEN",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "图结构或网状结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "上关系的有限集",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "非顺序存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "抽象数据类型",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "stud1",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "char",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基本操作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作前提",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "线性结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "逻辑结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "集合结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "程序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一组性质相同的值集合以及定义在这",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "借助元素在存储器中的顺序位置关系",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "借助指向数据元素的指针表示数据元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其中数据元素的逻辑关系在计算机中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其它每个数据元素仅有一个直接前驱",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于存储结构的运算实现步骤或过程",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于某种程序设计语言对一个算法的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "字符以及能输入机器且能被处理的各",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "数据元素之间只有属于或者不属于一",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "数据元素之间存在着一对一的线性关",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "算法",
+          "target": "算法",
+          "relation": "定义",
+          "description": "算法是基于存储结构的运算实现步骤或过程。"
+        },
+        {
+          "source": "数据结构",
+          "target": "数据结构",
+          "relation": "表示",
+          "description": "ADT <ADT名> { 数据对象D :<数据对象的定义> 结构关系R :<结构关系的定义> 基本操作P :<基本操作的定义> }ADT <ADT名>;"
+        }
+      ]
+    },
+    "17ca570803a89a5ee22744db4de097c8": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "数据结构",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "矩阵",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "存储",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "压缩",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "二维数组",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "存储单元",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "地址",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "计算公式",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "行",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "列",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "在一维数组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "前面的非零元素个数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "行非零元素的个数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "行中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中的下标计算公式",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "可得二维数组元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "压缩存储原则",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "根据非零元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中的下标为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "假设首元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "size",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的下标为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "非零元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "其中前",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只存储矩阵中的非零元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAXSIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "与一维数组元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "元素的对应关系",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Triple",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "不存储零元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中对应的下标",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "按行主序存储",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "与一维数组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的对应关系",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "data",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "典型情况",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "带状矩阵",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "得到序列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的地址为",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "三角矩阵",
+          "target": "上三角矩阵",
+          "relation": "压缩存储",
+          "description": "根据非零元素在二维数组中的位置计算下标",
+          "weight": 0.0
+        },
+        {
+          "source": "三角矩阵",
+          "target": "带状矩阵",
+          "relation": "压缩存储",
+          "description": "根据非零元素在二维数组中的分布计算压缩方式",
+          "weight": 0.0
+        },
+        {
+          "source": "稀疏矩阵",
+          "target": "三元组表",
+          "relation": "存储",
+          "description": "存储非零元素及其位置",
+          "weight": 0.0
+        },
+        {
+          "source": "三角矩阵",
+          "target": "上三角矩阵",
+          "relation": "压缩存储",
+          "description": "根据非零元素在上三角矩阵中的位置计算下标",
+          "weight": 0.0
+        },
+        {
+          "source": "带状矩阵",
+          "target": "三元组表",
+          "relation": "存储",
+          "description": "存储稀疏矩阵的非零元素及其位置",
+          "weight": 0.0
+        }
+      ]
+    },
+    "67a5bfd2e1dc72cb3aa8dbaa975fd984": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "算法思想、稀疏矩阵转置运算、列序递增转置法、十字链表"
+        },
+        {
+          "name": "结构关系",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "矩阵的结构关系、稀疏矩阵的转置运算、十字链表存储法"
+        },
+        {
+          "name": "树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "树形表示法、广义表形式、凹入表示法、有序树、森林"
+        },
+        {
+          "name": "三元组表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "三元组表存储空间、列序递增转置法"
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "稀疏矩阵的转置运算、列序递增转置法"
+        },
+        {
+          "name": "十字链表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "十字链表存储法"
+        },
+        {
+          "name": "行",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "矩阵的行"
+        },
+        {
+          "name": "列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "矩阵的列"
+        },
+        {
+          "name": "元素",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "非零元素"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "OLNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "时间复杂度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "right",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "value",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "down",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "列互换后按找到的顺序保存到三元组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "预先计算待转置矩阵三元组表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "ElementType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "但有零个或多个直接后继",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从头到尾扫描三元组表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "position",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAXSIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "非零元素的个数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Triple",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "OLink",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "data",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "依此类推",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "找出所有",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的三元组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为空集",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将其行",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个结点的子树个数称为此结点的度",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个结点的直接前驱称为该结点的双",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个结点的直接后继和间接后继称为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个结点的直接后继称为该结点的孩",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到该结点的路径上的所有结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "列序递增转置法采用三元组表节约了",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "包含一个数据元素及若干指向其它结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同一双亲结点的孩子结点之间互称兄",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于三元组表的稀疏矩阵的转置运算",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将新结点插入到对应的行链表和列链",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "三元组表",
+          "target": "列序递增转置法",
+          "relation": "存储空间",
+          "weight": 0.0
+        },
+        {
+          "source": "三元组表",
+          "target": "列序递增转置法",
+          "relation": "时间复杂度",
+          "weight": 0.0
+        },
+        {
+          "source": "三元组表",
+          "target": "列序递增转置法",
+          "relation": "存储空间",
+          "weight": 0.0
+        },
+        {
+          "source": "列序递增转置法",
+          "target": "三元组表",
+          "relation": "存储空间",
+          "weight": 0.0
+        }
+      ]
+    },
+    "121dd7f5421dbb5e49f7a8b2ec4f2daf": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二叉树"
+        },
+        {
+          "name": "Tree",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "遍历右子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "遍历左子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问根",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "性质",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "记做",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问根结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "否则依次执行如下操作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若二叉树为空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Node",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则空操作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "后序遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作过程",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "深度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如下二叉树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "root",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "先序遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作前提",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作结果",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "补充性质",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为空集",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "特点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个结点的直接后继和间接后继称为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到该结点的路径上的所有结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "假设任何一颗二叉树都按完全二叉树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同一双亲结点的孩子结点之间互称兄",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果按照从上到下和从左到右的顺序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "按一定规律对给定的二叉树中的每个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "树中所有结点的度之和等于树中分支",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "树中的结点数等于所有结点的度数之",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "满足以下两个条件的树结构称为二叉",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的位置序号分别与等高的满二叉树的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "满二叉树的每层都具有最大结点数",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "根结点",
+          "relation": "根结点",
+          "description": "根结点",
+          "weight": 0.0
+        },
+        {
+          "source": "二叉树",
+          "target": "根结点",
+          "relation": "根",
+          "description": "根",
+          "weight": 0.0
+        }
+      ]
+    },
+    "b1173ebf665d072433f9ae06557f54a8": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "给定的二叉树及其遍历序列"
+        },
+        {
+          "name": "先序遍历",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "先序遍历操作过程的描述"
+        },
+        {
+          "name": "中序遍历",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "中序遍历二叉树的非递归算法"
+        },
+        {
+          "name": "后序遍历",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "后序遍历操作过程的描述"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "无顺序要求",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "遍历右子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "应用",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "可采用三种遍历算法中的一种实现",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "否则依次执行如下操作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若二叉树为空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Visit",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问根结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "遍历左子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则空操作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将之前的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作过程",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问根",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "记做",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历二叉树的非递归算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "统计二叉树中叶子结点的数目",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "输出二叉树中的叶子结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "输出二叉树中的结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "比如先序遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如下二叉树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的三件事",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果有",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "返回",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从下一层函数调用返回需恢复当层的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "函数具体实现为判断是否是叶子结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "分别在当前根结点的左孩子域和右孩",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即在遍历过程中遇到结点时需要判断",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "否则二叉树的叶子结点数目为左右子",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "当前执行层的工作记录必为递归工作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "每进入一层递归就入栈一个新的工作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用先序遍历的方法计算二叉树中每个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "输出叶子结点是一个有条件的输出问",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "中序遍历",
+          "relation": "非递归算法",
+          "description": "中序遍历二叉树的非递归算法",
+          "weight": 0.0
+        },
+        {
+          "source": "二叉树",
+          "target": "后序遍历",
+          "relation": "操作过程",
+          "description": "后序遍历操作过程的描述",
+          "weight": 0.0
+        }
+      ]
+    },
+    "24f0cc031def0780270ebd20ed3a6ca3": {
+      "entities": [
+        {
+          "name": "root",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "中序遍历二叉树的根结点"
+        },
+        {
+          "name": "Node",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二叉树中的节点"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "ChildNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "CSNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历二叉树的非递归算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "DataType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则遍历方法为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "构成的森林",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若森林非空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "data",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "FirstChild",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "可唯一确定这颗二叉树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问第一棵树的根结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "DataNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "使之结构层次分明",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只要当前结点存在",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "进栈并遍历左子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点开始",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "TNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "或者栈不空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "森林的遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问根结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "遍历右子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从左到右",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "子树森林",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的三件事",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若树非空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "加线",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "去线",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "调整",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个结点的数据和对应孩子链表的头指",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历森林中第一棵树的根结点的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历除去第一棵树之后剩余的树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根到某一结点的路径长度与该结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到另一个结点之间的分支序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到另一个结点所经过的分支",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "root",
+          "target": "Node",
+          "relation": "访问根结点",
+          "description": "访问二叉树的根结点",
+          "weight": 0.0
+        },
+        {
+          "source": "root",
+          "target": "Node",
+          "relation": "遍历右子树",
+          "description": "访问二叉树的右子树",
+          "weight": 0.0
+        }
+      ]
+    },
+    "4dc88a0ead3b9cb7fb33c5e0d1076d6a": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "哈夫曼算法"
+        },
+        {
+          "name": "数据结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "哈夫曼树"
+        },
+        {
+          "name": "temp",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "start",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "构成的森林",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问第一棵树的根结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则遍历方法为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈夫曼编码",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若森林非空",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈夫曼树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "子树森林",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "下标",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为第",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "例如",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "定理",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个编码系统中的任何一个编码都不",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个带权叶子结点构成的所有二叉树中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历森林中第一棵树的根结点的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中序遍历除去第一棵树之后剩余的树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中选择两棵根结点权值最小的二叉树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从叶结点到根结点逆向求每个叶结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根到某一结点的路径长度与该结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到另一个结点之间的分支序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到另一个结点所经过的分支",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从根结点到树中每个结点的路径长度",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "判断其到根结点路径上的祖先结点是",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即每个字符用相同数目的二进制位编",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只有后序遍历的非递归算法在准备调",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "各分支构成的二进制串就称为哈夫曼",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同一层中按照从左到右对结点逐一访",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "后序遍历森林中第一棵树的根结点的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "后序遍历除去第一棵树之后剩余的树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "堆栈中保存有从根结点到指定结点之",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如何使传送数据所需的二进制位的长",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所有结点的双亲域和左右孩子域初始",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "构造哈夫曼算法",
+          "target": "哈夫曼树",
+          "relation": "构造",
+          "description": "哈夫曼树的构造过程",
+          "weight": 0.0
+        }
+      ]
+    },
+    "d020f774f9c76411f2002811bbd238ee": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "二叉树的结构和遍历算法"
+        },
+        {
+          "name": "后序遍历",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "非递归遍历二叉树的后序操作"
+        },
+        {
+          "name": "非递归遍历算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "实现二叉树非递归遍历的算法"
+        },
+        {
+          "name": "堆栈",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "用于保存从根结点到指定结点的结点的堆栈"
+        },
+        {
+          "name": "结构关系",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "记录访问顺序和路径的结构关系"
+        },
+        {
+          "name": "Graph",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对于有向图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对于无向图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则称顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作前提",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "操作结果",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "已知图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "记作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "DataObject",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即图中每个顶点和其余",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "nlogn",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "与顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "以顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "无向图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "相关联",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "存在",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "条边",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "表示",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "但在无向图中的顶点都会导致它不再",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只有后序遍历的非递归算法在准备调",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同一层中按照从左到右对结点逐一访",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "堆栈中保存有从根结点到指定结点之",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果删除任何一条边都无法构成连通",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并且不考虑图中每个顶点到其自身的",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "无向图中的极大连通子图称为该无向",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "有向图的极大强连通子图称作有向图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "根据二叉树的非递归遍历算法执行过",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "而先序和中序遍历的堆栈内容都不符",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "而层次遍历在按层次遍历时需跨结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "若其第一个顶点和最后一个顶点相同",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "该顶点在人为的随意排列中的位置序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "这时需要记录曾经已访问过的结点及",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "通过结点的左孩子或右孩子实现对二",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的每个顶点访问一次且仅访问一次",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "该集合中的所有元素具有相同特性",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "路径的顶点序列中的顶点各不相同",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "后序遍历",
+          "relation": "包含",
+          "description": "保存从根到指定结点的结点",
+          "weight": 0.0
+        },
+        {
+          "source": "非递归遍历算法",
+          "target": "堆栈",
+          "relation": "实现",
+          "description": "通过堆栈访问指定结点",
+          "weight": 0.0
+        }
+      ]
+    },
+    "6030b6cd1169c8148bbf4e0a622e6123": {
+      "entities": [
+        {
+          "name": "邻接矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图的邻接矩阵表示法"
+        },
+        {
+          "name": "邻接表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图的邻接表表示法"
+        },
+        {
+          "name": "VertexData",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点数据"
+        },
+        {
+          "name": "ArcNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "弧节点结构"
+        },
+        {
+          "name": "VertexNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "顶点节点"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "adjvex",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAX_VERTEX_NUM",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "GraphKind",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对于有向图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "info",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果是弧",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为弧尾",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "记作",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "反映图中顶点间的邻接关系",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "采取邻接表作为存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Adjacency",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "OtherInfo",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "firstarc",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "nextarc",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "vertex",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个表头结点和",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个边链表组成",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个边链表结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "最多顶点个数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "邻接表表示法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "表头结点表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "char",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "enum",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中的位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "图的种类",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "问题描述",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接矩阵",
+          "target": "邻接矩阵",
+          "relation": "初始化",
+          "description": "邻接矩阵初始化赋值"
+        },
+        {
+          "source": "邻接表",
+          "target": "邻接表",
+          "relation": "存储",
+          "description": "邻接表存储结构"
+        }
+      ]
+    },
+    "37478a6bffd9d70b1acb056ee93d8977": {
+      "entities": [
+        {
+          "name": "邻接表",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "存储空间",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "边链表",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "表头结点",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "边链表结点",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "存储效率",
+          "type": "概念|算法|数据结构|术语|其他"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "ArcNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "VertexNode",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "GraphKind",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "所在的连通子图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "出发",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAX_VERTEX_NUM",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "因此算法的时间复杂度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "采取邻接表作为存储结构",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "VertexData",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "firstin",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从图中某个顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "时间复杂度分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "Search",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个表头结点和",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个边链表结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "广度优先搜索",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "时间复杂度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "深度优先搜索",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "深度优先遍历",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基本思想是",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对图搜索时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的简单路径",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "访问该顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "kind",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "十字链表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "图的种类",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "顶点数据",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "顶点结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "首先访问",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "假设图",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "对于有",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接表",
+          "target": "存储空间",
+          "relation": "存储空间",
+          "description": "邻接表的存储特性",
+          "weight": 0.0
+        },
+        {
+          "source": "邻接表",
+          "target": "边链表",
+          "relation": "存储空间",
+          "description": "邻接表的存储结构",
+          "weight": 0.0
+        },
+        {
+          "source": "邻接表",
+          "target": "边链表结点",
+          "relation": "存储空间",
+          "description": "邻接表的存储效率",
+          "weight": 0.0
+        }
+      ]
+    },
+    "949081d1318d213567651e1facfdabdf": {
+      "entities": [
+        {
+          "name": "生成树",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "一个连通图的生成树（回顾）：指具有n个顶点的连通图G的一个极小连通子图，它含有图G中的全部顶点，但只有足已构成一棵树的n-1条边。特点：一个连通图可能有若干颗不同的生成树。一颗具有n个顶点的生成树有且仅有n-1条边，如果再添加一条边，必定构成一个环。具有n-1条边只是生成树的必要非充分条件，可能n-1条边构成的图不是一个连通图，因而也没有生成树。"
+        },
+        {
+          "name": "边",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "在图中，顶点对(vij-1, vij)属于边的关系。"
+        },
+        {
+          "name": "拓扑序列",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "在有向图G中，拓扑序列中的顶点序列满足<vij-1, vij>∈A，1≤j≤n。"
+        },
+        {
+          "name": "closedge",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "lowcost",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "条边",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "indegree",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的先行活动",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "假设",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "重复",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "求最小生成树的普里姆算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的边中选一条代价最小的边",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中无前驱的顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为起点的所有弧",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "设置一个数组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的简单路径",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并入集合",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "是连通网",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法步骤",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "删除以",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同时将",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在所有",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "加入",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "回顾",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并入",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一个连通图可能有若干颗不同的生成",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为了在邻接表中便于找入度为零的顶",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从有向无环图中选一个无前驱的顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "利用其下标反映顶点访问的先后顺序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同时将该边的两个顶点所在的顶点集",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "否则输出的顶点的顺序即为一个拓扑",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于深度优先搜索算法或广度优先搜",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "生成树",
+          "target": "边",
+          "relation": "边",
+          "description": "在图中，顶点对(vij-1, vij)属于边的关系。",
+          "weight": 0.0
+        },
+        {
+          "source": "边",
+          "target": "拓扑序列",
+          "relation": "拓扑序列",
+          "description": "在有向图G中，拓扑序列中的顶点序列满足<vij-1, vij>∈A，1≤j≤n。",
+          "weight": 0.0
+        }
+      ]
+    },
+    "e44630d542253776bead55077156dc0f": {
+      "entities": [
+        {
+          "name": "邻接表",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "邻接表存储结构"
+        },
+        {
+          "name": "拓扑排序",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "拓扑排序算法"
+        },
+        {
+          "name": "最短路径",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "最短路径算法"
+        },
+        {
+          "name": "Floyd算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "Floyd算法"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "邻接矩阵存储方式"
+        },
+        {
+          "name": "顶点",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "图中的顶点"
+        },
+        {
+          "name": "dist",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "arcs",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的最短路径",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "indegree",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "间加入顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "RecordType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "WeightType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "LIST_SIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法的时间复杂度为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "MAXSIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "SeqList",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "时间复杂度分析",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "次比较和修正",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "elem",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法步骤",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "得到",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "查找",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "比较",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "经过",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为了在邻接表中便于找入度为零的顶",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "到其余顶点的路径长度初始化为权值",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只能用所给关键字与线性表中各元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在查找过程中只对数据元素进行查找",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在查找过程中还允许对表中元素做变",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在特定列表中确定关键字与给定值相",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果一个关键字可以唯一标识列表中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "折半查找法对待查找的列表有两个要",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用它可以标识列表中的一个或一组数",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为了避免重复检测入度为零的顶点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "列表必须按关键字大小有序排列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "到图中其它每个顶点的最短路径",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于邻接表存储结构的拓扑排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "返回该数据元素在列表中的位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接表",
+          "target": "拓扑排序",
+          "relation": "算法思想",
+          "description": "用于寻找入度为零的顶点"
+        },
+        {
+          "source": "拓扑排序",
+          "target": "最短路径",
+          "relation": "算法步骤",
+          "description": "用于计算最短路径"
+        },
+        {
+          "source": "最短路径",
+          "target": "Floyd算法",
+          "relation": "时间复杂度分析",
+          "description": "Floyd算法的时间复杂度"
+        },
+        {
+          "source": "Floyd算法",
+          "target": "邻接矩阵",
+          "relation": "算法思想",
+          "description": "用于查找最短路径"
+        }
+      ]
+    },
+    "dabab1451d902e807cfe2184ca53a9a8": {
+      "entities": [
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "顺序表",
+          "type": "数据结构",
+          "description": "顺序存储结构"
+        },
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "顺序查找法的特点：表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "顺序表",
+          "type": "数据结构",
+          "description": "顺序存储结构"
+        },
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "顺序查找法的特点：表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "顺序查找法的特点：表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "顺序查找法的特点：表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "顺序查找法",
+          "type": "算法",
+          "description": "顺序查找法的特点：表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）"
+        },
+        {
+          "name": "lchild",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "struct",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "node",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "KeyType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "rchild",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则将",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "RecordType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "LIST_SIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基于树的查找法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "平衡二叉排序树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "二分查找法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "二叉排序树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "关键字的值",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "和存储地址",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "折半查找法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "free",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "左右指针",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的左子树",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈希法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "点的值",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "一棵平衡二叉树所有结点的平衡因子",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "二叉排序树中删除一个结点相当于删",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从而达到按关键字直接存取元素的目",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "分块查找法要求将列表组织成以下两",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则右子树上所有结点的值均大于根结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则左子树上所有结点的值均小于根结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "删除后所得的二叉树仍然需要满足二",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "利用哈希函数计算出该元素的存储位",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即对关键字直接计算其在列表中的存",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即调用二叉排序树的插入函数将新结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "只能用所给关键字与线性表中各元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "否则以中间位置数据元素为分界将表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果中间位置记录的关键字大于查找",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果要删除的结点不在二叉排序树中",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "就建立一个新的结点插入到当前已生",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "顺序查找法",
+          "target": "顺序查找法",
+          "relation": "特点",
+          "description": "表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）",
+          "weight": 0.0
+        },
+        {
+          "source": "顺序查找法",
+          "target": "顺序查找法",
+          "relation": "特点",
+          "description": "表内元素无序，只能用所给关键字与线性表中各元素的关键字逐个比较（从前往后或者从后往前）",
+          "weight": 0.0
+        }
+      ]
+    },
+    "869ee8e7a0d036e039a455eea6ec8671": {
+      "entities": [
+        {
+          "name": "struct",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "结构体定义的类型"
+        },
+        {
+          "name": "node",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "节点结构体的类型"
+        },
+        {
+          "name": "AVLNode",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "AVL树节点结构体的类型"
+        },
+        {
+          "name": "AVLTree",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "平衡二叉树的结构体类型"
+        },
+        {
+          "name": "RecordType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "记录类型定义的类型"
+        },
+        {
+          "name": "KeyType",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "关键字类型定义的类型"
+        },
+        {
+          "name": "HashTable",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "哈希表的类型定义"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "high",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果单元",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将第",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "用一组地址连续的存储单元存放记录",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的记录依次向后移动一个位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "中元素的关键字为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则所查元素不存在",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则找到所查元素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "处理冲突的方法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "random",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "折半插入排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直接插入排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "和存储地址",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "内部排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "基本思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈希法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "比较",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "从而达到按关键字直接存取元素的目",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "假设待排序列中存在若干具有相同关",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "利用哈希函数计算出该元素的存储位",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即对关键字直接计算其在列表中的存",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "可以从关键字中选出分布较均匀的若",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "同时另设一个指示各个记录位置的地",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈希法中影响关键字比较次数的因素",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "哈希表的查找与哈希表的创建规则一",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在一个已排好序的记录子集的基础上",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果无法确定关键字中哪几位分布较",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将记录从一个位置移动到另一个位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并且每个关键字的位数比哈希表的地",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "AVLNode",
+          "target": "lchild",
+          "relation": "lchild",
+          "description": "AVL树节点的左右指针属性",
+          "weight": 0.0
+        },
+        {
+          "source": "AVLNode",
+          "target": "rchild",
+          "relation": "rchild",
+          "description": "AVL树节点的左右指针属性",
+          "weight": 0.0
+        },
+        {
+          "source": "AVLTree",
+          "target": "AVLNode",
+          "relation": "root",
+          "description": "AVL树的根节点",
+          "weight": 0.0
+        },
+        {
+          "source": "RecordType",
+          "target": "KeyType",
+          "relation": "key_type",
+          "description": "记录类型与关键字类型的关联",
+          "weight": 0.0
+        },
+        {
+          "source": "RecordType",
+          "target": "HashTable",
+          "relation": "hash_table",
+          "description": "记录类型与哈希表类型的关联",
+          "weight": 0.0
+        }
+      ]
+    },
+    "f1222b8906ce28cd43ea2115811eced1": {
+      "entities": [
+        {
+          "name": "插入排序",
+          "type": "算法",
+          "description": "插入排序"
+        },
+        {
+          "name": "折半插入排序",
+          "type": "算法",
+          "description": "折半插入排序"
+        },
+        {
+          "name": "希尔排序",
+          "type": "算法",
+          "description": "希尔排序"
+        },
+        {
+          "name": "直接插入排序",
+          "type": "算法",
+          "description": "直接插入排序"
+        },
+        {
+          "name": "交换类排序",
+          "type": "算法",
+          "description": "交换类排序"
+        },
+        {
+          "name": "冒泡排序",
+          "type": "算法",
+          "description": "冒泡排序"
+        },
+        {
+          "name": "快速排序",
+          "type": "算法",
+          "description": "快速排序"
+        },
+        {
+          "name": "简单选择排序",
+          "type": "算法",
+          "description": "简单选择排序"
+        },
+        {
+          "name": "堆排序",
+          "type": "算法",
+          "description": "堆排序"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "算法思想",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "high",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将第",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的记录依次向后移动一个位置",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "各结点关键字的值满足条件",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "组内进行直接插入排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "的记录分成一组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "为止",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并且",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "比较",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "键字",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "前一子表中所有记录的关键字均不大",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "即序列中具有下列特性的记录较少时",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "后一子表中所有记录的关键字均不小",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在扫描的过程中顺次比较相邻的两个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "在整个待排序记录序列中将所有间隔",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "大根堆的根结点为当前序列的最大关",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将待排序的关键字序列分成若干较小",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "将最小关键字对应的叶结点的值置为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "小根堆的根结点为当前序列的最小关",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "把待排序的记录的关键字存放在数组",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "更新该叶结点到根结点路径上各结点",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "最后再对全部记录进行一次直接插入",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后从该叶结点与其兄弟结点关键字",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直接插入排序的时间复杂度可以降低",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "看成一棵完全二叉树的顺序存储表示",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "让这轮序列中最大关键字记录放置到",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "选出每对中的较小者作为两者的根结",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "针对每个子序列分别进行直接插入排",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "先将待排序记录序列分割成若干个",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "如果某一趟扫描没有出现一个逆序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直到遇见一个关键字小于或者等于",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个记录中选出关键字最小的记录",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "直接插入排序",
+          "target": "插入排序",
+          "relation": "插入",
+          "weight": 0.0
+        },
+        {
+          "source": "折半插入排序",
+          "target": "折半插入排序",
+          "relation": "折半",
+          "weight": 0.0
+        },
+        {
+          "source": "希尔排序",
+          "target": "希尔排序",
+          "relation": "希尔",
+          "weight": 0.0
+        },
+        {
+          "source": "直接插入排序",
+          "target": "直接插入排序",
+          "relation": "插入",
+          "weight": 0.0
+        },
+        {
+          "source": "交换类排序",
+          "target": "交换类排序",
+          "relation": "交换",
+          "weight": 0.0
+        },
+        {
+          "source": "冒泡排序",
+          "target": "冒泡排序",
+          "relation": "冒泡",
+          "weight": 0.0
+        },
+        {
+          "source": "快速排序",
+          "target": "快速排序",
+          "relation": "快速",
+          "weight": 0.0
+        },
+        {
+          "source": "简单选择排序",
+          "target": "简单选择排序",
+          "relation": "简单",
+          "weight": 0.0
+        },
+        {
+          "source": "堆排序",
+          "target": "堆排序",
+          "relation": "堆",
+          "weight": 0.0
+        }
+      ]
+    },
+    "195ca906ec79f1bd80051e959b9e43ab": {
+      "entities": [
+        {
+          "name": "堆",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "大根堆：各结点关键字的值满足条件：r[i].key≥r[2i].key并且r[i].key≥r[2i+1].key(i=1,2, ... n/2 )的完全二叉树称为大根堆。"
+        },
+        {
+          "name": "算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "typedef",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "define",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "RADIX",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "keyi",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "排序法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并且每一趟都在前一趟的基础上排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "各结点关键字的值满足条件",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "KEY_SIZE",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "KeyType",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "直至排序完成",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "该方法称为",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "路归并排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "进一步排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "低位优先",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "举例",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "并且",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "张牌",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "键字",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "个有序表合并成一个有序表的方法称",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "大根堆的根结点为当前序列的最大关",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "小根堆的根结点为当前序列的最小关",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "排序时先按最低位的值对记录进行初",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "每次将两个或两个以上有序表合并成",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "每次将两个有序表合并成一个有序表",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后再按面值对每一类从小到大排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后按关键字的优先级由低到高",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "然后按关键字的优先级由高到低",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "相邻两个有序子序列的合并算法",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "先按最低优先级的关键字排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "先按最高优先级的关键字排序",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "则每一位可视为一个子关键字",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "根据待排序的初始序列建初堆",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "首先按面值从小到大把牌摆成",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "依次逐层从左到右顺序排列",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "堆排序需要解决的两个问题",
+          "type": "术语",
+          "description": "规则补充实体"
+        },
+        {
+          "name": "调整完全二叉树重新成为堆",
+          "type": "术语",
+          "description": "规则补充实体"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "堆",
+          "target": "堆定义",
+          "relation": "概念",
+          "description": "堆定义：大根堆：各结点关键字的值满足条件：r[i].key≥r[2i].key并且r[i].key≥r[2i+1].key(i=1,2, ... n/2 )的完全二叉树称为大根堆。"
+        }
+      ]
+    }
+  }
+}

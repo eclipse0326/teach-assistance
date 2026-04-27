@@ -1,0 +1,884 @@
+{
+  "chunks": {
+    "21f79cd6632a45dc72be71d4021dda5c": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "线性表"
+        },
+        {
+          "name": "栈",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "栈"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "线性表",
+          "relation": "操作",
+          "description": "线性表的删除操作",
+          "weight": 0.0
+        },
+        {
+          "source": "线性表",
+          "target": "线性表",
+          "relation": "合并",
+          "description": "线性表的合并操作",
+          "weight": 0.0
+        }
+      ]
+    },
+    "504a61c22bbf58132b00549647ba2b52": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "description": "数据结构"
+        },
+        {
+          "name": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Complexity",
+          "description": "复杂度"
+        },
+        {
+          "name": "Operation",
+          "description": "操作"
+        },
+        {
+          "name": "Concept",
+          "description": "概念"
+        },
+        {
+          "name": "Application",
+          "description": "应用"
+        },
+        {
+          "name": "Code_Snippet",
+          "description": "代码片段"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "HString",
+          "target": "Block",
+          "relation": "结构关系",
+          "description": "块链结构",
+          "weight": 0.0
+        },
+        {
+          "source": "Block",
+          "target": "BlockChain",
+          "relation": "结构关系",
+          "description": "块链结构",
+          "weight": 0.0
+        },
+        {
+          "source": "Block",
+          "target": "BlockChain",
+          "relation": "结构关系",
+          "description": "块链结构",
+          "weight": 0.0
+        },
+        {
+          "source": "Array",
+          "target": "ADT Array",
+          "relation": "Algorithm",
+          "description": "算法分析",
+          "weight": 0.0
+        },
+        {
+          "source": "Array",
+          "target": "ADT Array",
+          "relation": "Algorithm",
+          "description": "算法分析",
+          "weight": 0.0
+        }
+      ]
+    },
+    "40041179c692a3f69c9b9a2d03480c91": {
+      "entities": [
+        {
+          "name": "StackElementType",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "StackElementType"
+        },
+        {
+          "name": "Stack",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "Stack"
+        },
+        {
+          "name": "LinkStack",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "LinkStack"
+        },
+        {
+          "name": "Queue",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "Queue"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "StackElementType",
+          "target": "StackElementType",
+          "relation": "Has_Operation",
+          "description": "StackElementType"
+        },
+        {
+          "source": "StackElementType",
+          "target": "StackElementType",
+          "relation": "Has_Space_Complexity",
+          "description": "StackElementType"
+        },
+        {
+          "source": "StackElementType",
+          "target": "StackElementType",
+          "relation": "Has_Time_Complexity",
+          "description": "StackElementType"
+        },
+        {
+          "source": "StackElementType",
+          "target": "StackElementType",
+          "relation": "Has_Operation",
+          "description": "StackElementType"
+        },
+        {
+          "source": "StackElementType",
+          "target": "StackElementType",
+          "relation": "Has_Space_Complexity",
+          "description": "StackElementType"
+        }
+      ]
+    },
+    "ab3219ac18a492fac5bc5668dc3a2a95": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "反映数据的组织形式，包括数据元素集合、元素间关系的集合。"
+        },
+        {
+          "name": "Algorithm",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "基于存储结构的运算实现步骤或过程。它是规则的有限集合，是为解决特定问题而规定的一系列操作。"
+        },
+        {
+          "name": "LinearList",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "线性表的ADT表示。"
+        },
+        {
+          "name": "ADT",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "抽象数据类型。是更广义的数据类型。"
+        },
+        {
+          "name": "List",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "数据元素集合的个体。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Data_Structure",
+          "target": "LinearList",
+          "relation": "Has_Space_Complexity",
+          "description": "线性表的ADT表示。"
+        },
+        {
+          "source": "ADT",
+          "target": "LinearList",
+          "relation": "Has_Operation",
+          "description": "线性表的ADT表示。"
+        },
+        {
+          "source": "Data_Structure",
+          "target": "LinearList",
+          "relation": "Has_Time_Complexity",
+          "description": "线性表的ADT表示。"
+        },
+        {
+          "source": "LinearList",
+          "target": "LinearList",
+          "relation": "Has_Space_Complexity",
+          "description": "线性表的ADT表示。"
+        }
+      ]
+    },
+    "216a5950365a5126f0b2d78876d9cd28": {
+      "entities": [
+        {
+          "name": "LinkQueueNode",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "链队列的基本操作"
+        },
+        {
+          "name": "LinkQueue",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "链队列的顺序存储结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "LinkQueueNode",
+          "target": "LinkQueueNode",
+          "relation": "Has_Operation",
+          "description": "链队列的基本操作",
+          "weight": 0.0
+        }
+      ]
+    },
+    "dd4baa7a307c6b08947e36ac450fd0cc": {
+      "entities": [
+        {
+          "name": "LinearList",
+          "type": "Concept",
+          "description": "线性表的抽象数据类型定义"
+        },
+        {
+          "name": "SeqList",
+          "type": "Concept",
+          "description": "顺序存储的线性表"
+        },
+        {
+          "name": "Algorithm",
+          "type": "Concept",
+          "description": "算法设计的基本要素"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "SeqList",
+          "target": "LinearList",
+          "relation": "ADT",
+          "description": "顺序存储的线性表"
+        }
+      ]
+    },
+    "35e9c45319d3dee718d97687f464e8bb": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "description": "二维数组"
+        },
+        {
+          "name": "Algorithm",
+          "description": "压缩存储"
+        },
+        {
+          "name": "Complexity",
+          "description": "时间复杂度"
+        },
+        {
+          "name": "Code_Snippet",
+          "description": "存储空间地址计算公式"
+        },
+        {
+          "name": "Application",
+          "description": "二维数组存储"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Loc(A[i])",
+          "target": "Loc(A[i][j])",
+          "relation": "Has_Time_Complexity",
+          "description": "计算二维数组元素的存储空间地址"
+        },
+        {
+          "source": "Loc(A[i][j])",
+          "target": "Loc(A[1][1])",
+          "relation": "Has_Operation",
+          "description": "二维数组元素的地址计算"
+        },
+        {
+          "source": "Loc(A[1][1])",
+          "target": "Loc(A[1][1])",
+          "relation": "Has_Space_Complexity",
+          "description": "二维数组元素的存储空间"
+        }
+      ]
+    },
+    "294d1c2e0aff493e145f0a36d8ef0cd0": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "type": "Algorithm"
+        },
+        {
+          "name": "Tree",
+          "type": "Concept"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Tree",
+          "relation": "Is_A",
+          "description": "Algorithm"
+        }
+      ]
+    },
+    "736be59ee2fe48fd2a0daed1c18f659a": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "Binary Tree"
+        },
+        {
+          "name": "遍历",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "Traversal"
+        },
+        {
+          "name": "结构关系",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "Binary Tree Properties"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "结构关系",
+          "relation": "定义",
+          "description": "Binary Tree Definition",
+          "weight": 0.0
+        },
+        {
+          "source": "二叉树",
+          "target": "遍历",
+          "relation": "遍历操作",
+          "description": "Traversal Operations",
+          "weight": 0.0
+        }
+      ]
+    },
+    "aab7af37b8ae6a3b70902033aec1e7d6": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application"
+        },
+        {
+          "name": "遍历算法",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application"
+        },
+        {
+          "name": "先序遍历",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application"
+        },
+        {
+          "name": "中序遍历",
+          "type": "Data_StructURE|Algorithm|Operation|Complexity|Concept|Application"
+        },
+        {
+          "name": "后序遍历",
+          "type": "Data_STRUCTURE|Algorithm|Operation|Complexity|Concept|Application"
+        },
+        {
+          "name": "二叉树",
+          "type": "Data_StructURE|Algorithm|Operation|Complexity|Concept|Application"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二叉树",
+          "target": "遍历算法",
+          "relation": "Has_Operation",
+          "description": "二叉树的遍历算法"
+        },
+        {
+          "source": "二叉树",
+          "target": "中序遍历",
+          "relation": "Has_Operation",
+          "description": "中序遍历的算法"
+        },
+        {
+          "source": "二叉树",
+          "target": "后序遍历",
+          "relation": "Has_Operation",
+          "description": "后序遍历的算法"
+        }
+      ]
+    },
+    "d31a991bba6b68b95202f6ceb22b842f": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "type": "Algorithm"
+        },
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure"
+        },
+        {
+          "name": "Node",
+          "type": "Concept"
+        },
+        {
+          "name": "Tree",
+          "type": "Concept"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Data_Structure",
+          "relation": "Has_Time_Complexity",
+          "description": "Algorithm's time complexity"
+        },
+        {
+          "source": "Data_Structure",
+          "target": "Concept",
+          "relation": "Is_A",
+          "description": "Data structure"
+        }
+      ]
+    },
+    "1b2a2d1a8d8d34334d64f1d7890ceaec": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "description": "哈夫曼算法"
+        },
+        {
+          "name": "Data_Structure",
+          "description": "二叉树"
+        },
+        {
+          "name": "Complexity",
+          "description": "最优前缀编码"
+        },
+        {
+          "name": "Code_Snippet",
+          "description": "静态三叉链表存储"
+        },
+        {
+          "name": "Huffman_Tree",
+          "description": "哈夫曼树"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Huffman_Tree",
+          "target": "Algorithm",
+          "relation": "Is_A",
+          "weight": 1.0
+        },
+        {
+          "source": "Huffman_Tree",
+          "target": "Data_StructURE",
+          "relation": "Contains",
+          "weight": 1.0
+        },
+        {
+          "source": "Huffman_Tree",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "weight": 1.0
+        },
+        {
+          "source": "Huffman_Tree",
+          "target": "Complexity",
+          "relation": "Has_Time_Complexity",
+          "weight": 1.0
+        }
+      ]
+    },
+    "1f071f42eb87d22550c2d57d5521381c": {
+      "entities": [
+        {
+          "name": "二叉树",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "二叉树"
+        },
+        {
+          "name": "后序遍历",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "后序遍历算法"
+        },
+        {
+          "name": "堆栈",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "保存从根结点到指定结点之间的结点"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "后序遍历",
+          "target": "二叉树",
+          "relation": "Has_Operation",
+          "description": "实现后序遍历算法",
+          "weight": 0.0
+        }
+      ]
+    },
+    "cb3d35b61bfcab3462931f0eb9ed154c": {
+      "entities": [
+        {
+          "name": "GraphKind",
+          "type": "Concept",
+          "description": "表示图的种类，包括DG（有向图）、DN（有向网）、UDG（无向图）、UDN（无向网）"
+        },
+        {
+          "name": "VertexData",
+          "type": "Concept",
+          "description": "顶点数据类型，用于存储顶点的名或其它相关信息"
+        },
+        {
+          "name": "ArcNode",
+          "type": "Concept",
+          "description": "用于存储邻接边或弧的结构体，包括adjvex、nextarc和info字段"
+        },
+        {
+          "name": "VertexNode",
+          "type": "Concept",
+          "description": "用于存储顶点及其邻接边的结构体，包括数据域、邻接点域和信息域"
+        },
+        {
+          "name": "AdjList",
+          "type": "Concept",
+          "description": "用于存储图结构的邻接表表示法，包含顶点数、弧或边数、图的种类标志等信息"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "GraphKind",
+          "target": "GraphKind",
+          "relation": "Has_Operation",
+          "description": "表示图的存储结构类型，用于邻接矩阵和邻接表的表示方法"
+        },
+        {
+          "source": "VertexData",
+          "target": "VertexData",
+          "relation": "Has_Space_Complexity",
+          "description": "表示顶点数据类型与存储结构的关系"
+        },
+        {
+          "source": "ArcNode",
+          "target": "ArcNode",
+          "relation": "Has_Operation",
+          "description": "表示邻接边或弧的结构体类型"
+        },
+        {
+          "source": "VertexNode",
+          "target": "VertexNode",
+          "relation": "Has_Operation",
+          "description": "表示顶点及其邻接边的结构体类型"
+        }
+      ]
+    },
+    "e3454d53f4737c7d0f3e45a642f16231": {
+      "entities": [
+        {
+          "name": "邻接表表示法",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "邻接表表示法的存储结构特点"
+        },
+        {
+          "name": "存储空间",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "无向图的存储空间：n个表头结点和2e个边链表结点"
+        },
+        {
+          "name": "顶点数",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "无向图的顶点数和边数"
+        },
+        {
+          "name": "邻接表",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "邻接表的存储效率优势"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "邻接矩阵的存储复杂度"
+        },
+        {
+          "name": "十字链表",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application",
+          "description": "十字链表的存储结构特点"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接表表示法",
+          "target": "存储空间",
+          "relation": "Has_Space_Complexity",
+          "description": "邻接表的存储效率"
+        },
+        {
+          "source": "邻接表表示法",
+          "target": "顶点数",
+          "relation": "Has_Space_Complexity",
+          "description": "邻接表的存储空间"
+        },
+        {
+          "source": "邻接表",
+          "target": "存储空间",
+          "relation": "Is_A",
+          "description": "邻接表的存储结构"
+        },
+        {
+          "source": "十字链表",
+          "target": "邻接表",
+          "relation": "Has_Operation",
+          "description": "十字链表的存储结构"
+        }
+      ]
+    },
+    "0c14450aa302e9f1ad3ea6469c55acc7": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Data_Structure",
+          "description": "数据结构"
+        },
+        {
+          "name": "Complexity",
+          "description": "时间复杂度"
+        },
+        {
+          "name": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Algorithm",
+          "description": "算法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "description": "采用深度（或广度）优先搜索寻找顶点v",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "description": "采用广度优先搜索寻找顶点v",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "description": "基于深度优先搜索算法实现",
+          "weight": 0.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Has_Operation",
+          "description": "基于广度优先搜索算法实现",
+          "weight": 0.0
+        }
+      ]
+    },
+    "f61d3ae2a5422808861386efeca1b0fe": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "description": "邻接表存储结构"
+        },
+        {
+          "name": "Algorithm",
+          "description": "算法思想"
+        },
+        {
+          "name": "Complexity",
+          "description": "时间复杂度分析"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Data_Structure",
+          "target": "Algorithm",
+          "relation": "Has_Time_Complexity",
+          "description": "算法的时间复杂度分析",
+          "weight": 0.0
+        }
+      ]
+    },
+    "1c51cbe80a5359a3042c2e51d27807f7": {
+      "entities": [],
+      "relationships": []
+    },
+    "510e98d00cbd0e1d3401e1d2181fc87f": {
+      "entities": [
+        {
+          "name": "Data_Structure",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "结构体定义及其相关数据结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "struct",
+          "target": "struct node",
+          "relation": "Has_Operation",
+          "description": "结构体中的基本操作",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "AVLNode",
+          "relation": "Has_Operation",
+          "description": "AVL节点的基本操作",
+          "weight": 0.0
+        },
+        {
+          "source": "struct",
+          "target": "AVLTree",
+          "relation": "Has_Operation",
+          "description": "平衡二叉树的结构",
+          "weight": 0.0
+        },
+        {
+          "source": "RecordType",
+          "target": "KeyType",
+          "relation": "Has_Type",
+          "description": "记录类型定义",
+          "weight": 0.0
+        },
+        {
+          "source": "RecordType",
+          "target": "HashTable",
+          "relation": "Has_Type",
+          "description": "哈希表的类型定义",
+          "weight": 0.0
+        }
+      ]
+    },
+    "8abdc01a49c2125a5552d02d4a1e9b78": {
+      "entities": [
+        {
+          "name": "Algorithm",
+          "description": "算法"
+        },
+        {
+          "name": "Data_Structure",
+          "description": "数据结构"
+        },
+        {
+          "name": "Complexity",
+          "description": "时间复杂度"
+        },
+        {
+          "name": "Operation",
+          "description": "操作"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Algorithm",
+          "target": "Algorithm",
+          "relation": "Is_A",
+          "weight": 1.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Data_Structure",
+          "relation": "Contains",
+          "weight": 1.0
+        },
+        {
+          "source": "Algorithm",
+          "target": "Complexity",
+          "relation": "Has_Time_Complexity",
+          "weight": 1.0
+        }
+      ]
+    },
+    "c5243b790ef8c560ea14ea1c23a7832b": {
+      "entities": [
+        {
+          "name": "堆",
+          "type": "Data_Structure|Algorithm|Operation|Complexity|Concept|Application|Code_Snippet",
+          "description": "大根堆和小根堆的定义及构建过程"
+        },
+        {
+          "name": "堆排序",
+          "type": "Algorithm",
+          "description": "用于排序的算法方法"
+        },
+        {
+          "name": "基数排序",
+          "type": "Algorithm|Operation",
+          "description": "链式基数排序的基本思想和实现方法"
+        },
+        {
+          "name": "排序法",
+          "type": "Concept",
+          "description": "堆排序的两种排序策略"
+        },
+        {
+          "name": "记录类型",
+          "type": "Concept",
+          "description": "在堆排序中的记录结构描述"
+        },
+        {
+          "name": "排序过程",
+          "type": "Operation",
+          "description": "堆排序的具体实现步骤"
+        },
+        {
+          "name": "算法实现",
+          "type": "Algorithm",
+          "description": "链式基数排序的具体实现方法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Contains",
+          "weight": 0.0
+        },
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Is_A",
+          "weight": 0.0
+        },
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Has_Space_Complexity",
+          "weight": 0.0
+        },
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Has_Time_Complexity",
+          "weight": 0.0
+        },
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Has_Operation",
+          "weight": 0.0
+        },
+        {
+          "source": "entities",
+          "target": "entities",
+          "relation": "Has_Time_Complexity",
+          "weight": 0.0
+        }
+      ]
+    }
+  }
+}

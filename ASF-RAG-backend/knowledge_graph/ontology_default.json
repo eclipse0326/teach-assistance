@@ -1,0 +1,162 @@
+{
+  "name": "DataStructureOntology",
+  "version": "1.0.0",
+  "entity_types": [
+    "Data_Structure",
+    "Algorithm",
+    "Operation",
+    "Complexity",
+    "Concept",
+    "Application",
+    "Code_Snippet"
+  ],
+  "entity_type_aliases": {
+    "Data_Structure": [
+      "数据结构"
+    ],
+    "Algorithm": [
+      "算法"
+    ],
+    "Operation": [
+      "操作"
+    ],
+    "Complexity": [
+      "复杂度"
+    ],
+    "Concept": [
+      "概念",
+      "术语"
+    ],
+    "Application": [
+      "应用场景",
+      "场景"
+    ],
+    "Code_Snippet": [
+      "代码实现",
+      "代码"
+    ]
+  },
+  "relations": {
+    "Is_A": {
+      "domain": [
+        "Data_Structure"
+      ],
+      "range": [
+        "Data_Structure",
+        "Concept"
+      ],
+      "aliases": [
+        "属于",
+        "定义为"
+      ]
+    },
+    "Contains": {
+      "domain": [
+        "Data_Structure"
+      ],
+      "range": [
+        "Data_Structure",
+        "Concept"
+      ],
+      "aliases": [
+        "包含"
+      ]
+    },
+    "Has_Operation": {
+      "domain": [
+        "Data_Structure"
+      ],
+      "range": [
+        "Operation"
+      ],
+      "aliases": [
+        "支持操作"
+      ]
+    },
+    "Acts_On": {
+      "domain": [
+        "Algorithm"
+      ],
+      "range": [
+        "Data_Structure",
+        "Concept"
+      ],
+      "aliases": [
+        "作用于"
+      ]
+    },
+    "Has_Time_Complexity": {
+      "domain": [
+        "Algorithm",
+        "Operation"
+      ],
+      "range": [
+        "Complexity"
+      ],
+      "aliases": [
+        "时间复杂度为",
+        "时间复杂度"
+      ]
+    },
+    "Has_Space_Complexity": {
+      "domain": [
+        "Algorithm",
+        "Operation"
+      ],
+      "range": [
+        "Complexity"
+      ],
+      "aliases": [
+        "空间复杂度为",
+        "空间复杂度"
+      ]
+    },
+    "Requires_Knowledge": {
+      "domain": [
+        "Algorithm"
+      ],
+      "range": [
+        "Data_Structure",
+        "Concept"
+      ],
+      "aliases": [
+        "前置依赖",
+        "依赖于"
+      ]
+    },
+    "Applied_To": {
+      "domain": [
+        "Data_Structure",
+        "Algorithm"
+      ],
+      "range": [
+        "Application"
+      ],
+      "aliases": [
+        "应用于",
+        "用于"
+      ]
+    },
+    "Implemented_By": {
+      "domain": [
+        "Data_Structure",
+        "Algorithm"
+      ],
+      "range": [
+        "Code_Snippet"
+      ],
+      "aliases": [
+        "实现参考",
+        "实现方式"
+      ]
+    },
+    "Related_To": {
+      "domain": [],
+      "range": [],
+      "aliases": [
+        "相关于",
+        "关联到"
+      ]
+    }
+  }
+}

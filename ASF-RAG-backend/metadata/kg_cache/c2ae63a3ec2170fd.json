@@ -1,0 +1,206 @@
+{
+  "chunks": {
+    "2c5d81c5c9f3ec9adb46daf341feff44": {
+      "entities": [
+        {
+          "name": "算法",
+          "type": "算法|算法",
+          "description": "Dijkstra、Floyd、Prim、Kruskal、Prim、Kruskal、排序算法、哈希表、查找算法、算法设计策略、关键术语"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "Dijkstra",
+          "target": "算法",
+          "relation": "类型",
+          "description": "Dijkstra：O(E log V)，无负权边",
+          "weight": 0.0
+        },
+        {
+          "source": "Floyd",
+          "target": "算法",
+          "relation": "类型",
+          "description": "Floyd：O(V³)，多源最短路径",
+          "weight": 0.0
+        },
+        {
+          "source": "Prim",
+          "target": "算法",
+          "relation": "类型",
+          "description": "Prim：O(E log V)，从点出发",
+          "weight": 0.0
+        },
+        {
+          "source": "Kruskal",
+          "target": "算法",
+          "relation": "类型",
+          "description": "Kruskal：O(E log E)，从边出发",
+          "weight": 0.0
+        },
+        {
+          "source": "排序算法",
+          "target": "算法",
+          "relation": "类型",
+          "description": "排序算法：冒泡、插入、堆、归并、快速、堆",
+          "weight": 0.0
+        },
+        {
+          "source": "哈希表",
+          "target": "算法",
+          "relation": "类型",
+          "description": "哈希表：键值对存储，O(1) 平均查找",
+          "weight": 0.0
+        },
+        {
+          "source": "查找算法",
+          "target": "算法",
+          "relation": "类型",
+          "description": "查找算法：顺序查找、二分查找、哈希查找",
+          "weight": 0.0
+        },
+        {
+          "source": "算法设计策略",
+          "target": "算法",
+          "relation": "类型",
+          "description": "算法设计策略：分治、贪心、动态规划、回溯、分支限界",
+          "weight": 0.0
+        },
+        {
+          "source": "关键术语",
+          "target": "算法",
+          "relation": "类型",
+          "description": "关键术语：ADT、深拷贝、递归、迭代、稳定、原地",
+          "weight": 0.0
+        }
+      ]
+    },
+    "254e0a6d68b3a05c5d6b5d1db0efc395": {
+      "entities": [
+        {
+          "name": "数据结构",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "数据结构核心概念与实现"
+        },
+        {
+          "name": "算法",
+          "type": "概念|算法|数据结构|术语|其他",
+          "description": "算法复杂度分析、线性数据结构、树形数据结构、图数据结构、哈希表等"
+        },
+        {
+          "name": "归并排序",
+          "type": "算法",
+          "description": "归并排序算法实现"
+        },
+        {
+          "name": "快速排序",
+          "type": "算法",
+          "description": "快速排序算法"
+        },
+        {
+          "name": "堆排序",
+          "type": "算法",
+          "description": "堆排序算法"
+        },
+        {
+          "name": "Java",
+          "type": "术语",
+          "description": "编程语言"
+        },
+        {
+          "name": "List",
+          "type": "数据结构",
+          "description": "数组/链表的实现"
+        },
+        {
+          "name": "Tree",
+          "type": "数据结构",
+          "description": "树形数据结构"
+        },
+        {
+          "name": "Queue",
+          "type": "数据结构",
+          "description": "队列数据结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "数据结构 - 核心概念与实现",
+          "target": "算法",
+          "relation": "概念|算法|数据结构|术语|其他",
+          "description": "数据结构核心概念与实现",
+          "weight": 0.0
+        },
+        {
+          "source": "算法复杂度分析",
+          "target": "算法",
+          "relation": "概念|算法|数据结构|术语|其他",
+          "description": "算法复杂度分析",
+          "weight": 0.0
+        },
+        {
+          "source": "线性数据结构",
+          "target": "数组",
+          "relation": "数据结构",
+          "description": "数组数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "线性数据结构",
+          "target": "链表",
+          "relation": "数据结构",
+          "description": "链表数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "线性数据结构",
+          "target": "栈",
+          "relation": "数据结构",
+          "description": "栈数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "线性数据结构",
+          "target": "队列",
+          "relation": "数据结构",
+          "description": "队列数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "树形数据结构",
+          "target": "二叉树",
+          "relation": "数据结构",
+          "description": "二叉树数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "树形数据结构",
+          "target": "二叉搜索树",
+          "relation": "数据结构",
+          "description": "二叉搜索树数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "树形数据结构",
+          "target": "AVL树",
+          "relation": "数据结构",
+          "description": "AVL树数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "树形数据结构",
+          "target": "红黑树",
+          "relation": "数据结构",
+          "description": "红黑树数据结构",
+          "weight": 0.0
+        },
+        {
+          "source": "树形数据结构",
+          "target": "堆",
+          "relation": "数据结构",
+          "description": "堆数据结构",
+          "weight": 0.0
+        }
+      ]
+    }
+  }
+}

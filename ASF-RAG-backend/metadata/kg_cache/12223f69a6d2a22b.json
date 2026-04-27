@@ -1,0 +1,1454 @@
+{
+  "chunks": {
+    "4e977da11154acf793db31cf9130e367": {
+      "entities": [
+        {
+          "name": "顺序栈",
+          "type": "数据结构/算法",
+          "description": "顺序栈的基本操作和特性"
+        },
+        {
+          "name": "链栈",
+          "type": "数据结构/算法",
+          "description": "链栈的存储结构和基本操作"
+        },
+        {
+          "name": "双端顺序栈",
+          "type": "数据结构/算法",
+          "description": "双端栈的实现方式和基本操作"
+        },
+        {
+          "name": "链队列",
+          "type": "数据结构/算法",
+          "description": "链队列的存储结构和基本操作"
+        },
+        {
+          "name": "ADT",
+          "type": "数据结构/算法",
+          "description": "ADT的结构关系和操作定义"
+        },
+        {
+          "name": "数据对象",
+          "type": "数据结构/算法",
+          "description": "数据对象的类型和属性"
+        },
+        {
+          "name": "结构关系",
+          "type": "数据结构/算法",
+          "description": "结构关系的定义和特性"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "顺序栈",
+          "target": "ADT",
+          "relation": "定义为",
+          "weight": 0.8
+        },
+        {
+          "source": "链栈",
+          "target": "链队列",
+          "relation": "结构关系",
+          "weight": 0.7
+        },
+        {
+          "source": "双端顺序栈",
+          "target": "双端栈",
+          "relation": "操作前提",
+          "weight": 0.6
+        },
+        {
+          "source": "链队列",
+          "target": "链队列",
+          "relation": "结构关系",
+          "weight": 0.5
+        }
+      ]
+    },
+    "255a67499fe9a7a56eb3ed226607f117": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "线性表是线性结构，通过元素和指针关系实现动态操作。"
+        },
+        {
+          "name": "数组",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "用于存储连续元素的结构，支持快速访问和修改。"
+        },
+        {
+          "name": "链表",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "链式结构，每个结点由数据域和指针域组成。"
+        },
+        {
+          "name": "栈",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "后进先出的限定性线性表，用于实现特定数据操作。"
+        },
+        {
+          "name": "队列",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "先进先出的限定性线性表，用于实现特定数据操作。"
+        },
+        {
+          "name": "顺序栈",
+          "type": "概念|算法|数据结构|术语|人物|组织|其他",
+          "description": "用于存储连续元素的结构，支持快速访问和修改。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "线性表的删除运算",
+          "relation": "定义",
+          "description": "线性表的删除运算涉及元素删除和链式操作。"
+        },
+        {
+          "source": "线性表",
+          "target": "线性表的合并运算",
+          "relation": "定义",
+          "description": "线性表的合并运算涉及有序元素合并。"
+        },
+        {
+          "source": "链表",
+          "target": "链表的插入操作",
+          "relation": "定义",
+          "description": "链表的插入操作涉及指针和元素插入。"
+        },
+        {
+          "source": "栈",
+          "target": "栈的定义",
+          "relation": "定义",
+          "description": "栈的定义涉及后进先出的线性表。"
+        },
+        {
+          "source": "队列",
+          "target": "队列的定义",
+          "relation": "定义",
+          "description": "队列是先进先出的限定性线性表。"
+        }
+      ]
+    },
+    "f191cd544dded191215514ae51b4332e": {
+      "entities": [
+        {
+          "name": "数据结构",
+          "type": "数据结构/算法",
+          "description": "反映数据的组织形式，包括数据元素集合、元素间关系的集合。"
+        },
+        {
+          "name": "算法",
+          "type": "数据结构/算法",
+          "description": "基于存储结构的运算实现步骤或过程。它是规则的有限集合，是为解决特定问题而规定的一系列操作。"
+        },
+        {
+          "name": "ADT",
+          "type": "数据结构/算法",
+          "description": "是更广义的数据类型。"
+        },
+        {
+          "name": "线性表",
+          "type": "数据结构/算法",
+          "description": "数据元素之间存在一对一的线性关系。"
+        },
+        {
+          "name": "树",
+          "type": "数据结构/算法",
+          "description": "数据元素之间存在一对多的层次关系。"
+        },
+        {
+          "name": "数组",
+          "type": "数据结构/算法",
+          "description": "数据元素集合的个体。"
+        },
+        {
+          "name": "指针",
+          "type": "数据结构/算法",
+          "description": "属于结构类型。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "数据结构",
+          "relation": "定义",
+          "description": "线性表作为数据结构的基本元素。"
+        },
+        {
+          "source": "数组",
+          "target": "数据结构",
+          "relation": "定义",
+          "description": "数组作为数据结构的基本元素。"
+        },
+        {
+          "source": "指针",
+          "target": "数据结构",
+          "relation": "属于",
+          "description": "指针作为结构类型的基本元素。"
+        },
+        {
+          "source": "树",
+          "target": "数据结构",
+          "relation": "属于",
+          "description": "树作为数据结构的基本元素。"
+        }
+      ]
+    },
+    "839dd6608c91ffb48778c7699140b695": {
+      "entities": [
+        {
+          "name": "数组",
+          "type": "概念|算法|数据结构|术语|组织",
+          "description": "一组有确定个数的元素的集合，即一旦定义了数组的维数和每一维的上、下限，数组中元素的个数就确定了。"
+        },
+        {
+          "name": "广义表",
+          "type": "概念|算法|数据结构|术语|组织",
+          "description": "采用链式存储实现的串。具体实现时，一个链表存放一个串值，每个结点可以存放一个或多个字符，每个结点称为块，整个链表称为块链结构。"
+        },
+        {
+          "name": "线性表",
+          "type": "概念|算法|数据结构|术语",
+          "description": "一维数组的扩充，一维数组即线性表；二维数组可视为数据元素为一维数组（线性表）的线性表；依此类推，三维数组可视为数据元素为n-1维数组的线性表。"
+        },
+        {
+          "name": "哈希表",
+          "type": "概念|算法|数据结构",
+          "description": "用于存储数据的结构，通常基于键值映射。"
+        },
+        {
+          "name": "块链结构",
+          "type": "概念|算法|数据结构",
+          "description": "采用链式存储实现的串，每个结点存放一个或多个字符，指针域用于连接块。"
+        },
+        {
+          "name": "数组的维数",
+          "type": "概念|算法|数据结构",
+          "description": "数组的维数和各维的长度，决定了数组的大小和结构。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "数组的定义",
+          "target": "数组",
+          "relation": "定义",
+          "description": "数组的维数和各维的长度，决定了数组的大小和结构。"
+        },
+        {
+          "source": "数组的维数",
+          "target": "数组",
+          "relation": "参数",
+          "description": "数组的维数和各维的长度，决定了数组的大小和结构。"
+        },
+        {
+          "source": "数组的顺序存储",
+          "target": "数组",
+          "relation": "存储方式",
+          "description": "二维数组的顺序存储，一维数组的顺序存储。"
+        },
+        {
+          "source": "块链串",
+          "target": "块链结构",
+          "relation": "结构",
+          "description": "采用链式存储实现的串，每个结点存放一个或多个字符。"
+        }
+      ]
+    },
+    "17ca570803a89a5ee22744db4de097c8": {
+      "entities": [
+        {
+          "name": "二维数组",
+          "type": "数据结构",
+          "description": "以行主序存储的二维数组"
+        },
+        {
+          "name": "三角矩阵",
+          "type": "数据结构",
+          "description": "下三角矩阵和上三角矩阵的压缩存储方式"
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "数据结构",
+          "description": "非零元素分布规律的矩阵"
+        },
+        {
+          "name": "二维数组",
+          "type": "数据结构",
+          "description": "行主序存储的二维数组"
+        },
+        {
+          "name": "矩阵",
+          "type": "数据结构",
+          "description": "二维数组的压缩存储方式"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "二维数组",
+          "target": "三角矩阵",
+          "relation": "压缩存储方式",
+          "description": "根据公式计算",
+          "weight": 0.5
+        },
+        {
+          "source": "二维数组",
+          "target": "稀疏矩阵",
+          "relation": "压缩存储",
+          "description": "三元组表存储法",
+          "weight": 0.8
+        },
+        {
+          "source": "稀疏矩阵",
+          "target": "矩阵",
+          "relation": "压缩存储",
+          "description": "三元组表表示法",
+          "weight": 0.7
+        }
+      ]
+    },
+    "5b986329189feef29beda5a9c9c28a85": {
+      "entities": [
+        {
+          "term": "LinearList",
+          "type": "ADT",
+          "definition": "ADT LinearList{\n    DataObject: D = {ai| ai∈D0, i = 1, 2, ..., n, n≥0, D0为某一数据类型}\n    StructureRelation: R = {<ai, ai+1> | ai, ai+1∈D0, i = 1, 2, ..., n-1}\n    BasicOperations: [\n      InitList(L)\n      ListLength(L)\n      EmptyList(L)\n    ]"
+        },
+        {
+          "term": "seqlist",
+          "type": "ADT",
+          "definition": "SeqList{\n    ElemType: elem[MAXSIZE] (存储空间)\n    int: last (记录数组最后一个元素的位置)\n}"
+        },
+        {
+          "term": "LinearList",
+          "type": "ADT",
+          "definition": "ADT LinearList{\n    DataObject: D = {ai| ai∈D0, i = 1, 2, ..., n, n≥0, D0为某一数据类型}\n    StructureRelation: R = {<ai, ai+1> | ai, ai+1∈D0, i = 1, 2, ..., n-1}\n    BasicOperations: [\n      InitList(L)\n      ListLength(L)\n      EmptyList(L)\n    ]"
+        },
+        {
+          "term": "seqlist",
+          "type": "ADT",
+          "definition": "SeqList{\n    ElemType: elem[MAXSIZE] (存储空间)\n    int: last (记录数组最后一个元素的位置)\n}"
+        }
+      ],
+      "relationships": [
+        {
+          "term1": "LinearList",
+          "term2": "ADT",
+          "type": "StructureRelation"
+        },
+        {
+          "term1": "seqlist",
+          "term2": "ADT",
+          "type": "ADT"
+        },
+        {
+          "term1": "LinearList",
+          "term2": "seqlist",
+          "type": "Definition"
+        }
+      ]
+    },
+    "a3798c9a06cd0c0ea78114abffa11f5a": {
+      "entities": [
+        {
+          "term": "struct",
+          "relation": "定义结构"
+        },
+        {
+          "term": "typedef",
+          "relation": "定义类型"
+        },
+        {
+          "term": "algorithm",
+          "relation": "算法"
+        },
+        {
+          "term": "int",
+          "relation": "整数"
+        },
+        {
+          "term": "n-1",
+          "relation": "n-1"
+        },
+        {
+          "term": "ADT",
+          "relation": "抽象数据类型"
+        },
+        {
+          "term": "define",
+          "relation": "定义"
+        },
+        {
+          "term": "len",
+          "relation": "长度"
+        },
+        {
+          "term": "next",
+          "relation": "下一个"
+        },
+        {
+          "term": "beginning",
+          "relation": "开始"
+        },
+        {
+          "term": "operation-premise",
+          "relation": "操作前提"
+        },
+        {
+          "term": "operation-result",
+          "relation": "操作结果"
+        },
+        {
+          "term": "data-object",
+          "relation": "数据对象"
+        },
+        {
+          "term": "problem-description",
+          "relation": "问题描述"
+        },
+        {
+          "term": "char",
+          "relation": "字符"
+        },
+        {
+          "term": "structure-relation",
+          "relation": "结构关系"
+        },
+        {
+          "term": "pos",
+          "relation": "位置"
+        },
+        {
+          "term": "rear",
+          "relation": "rear"
+        },
+        {
+          "term": "temp",
+          "relation": "temp"
+        },
+        {
+          "term": "basic-operation",
+          "relation": "基本操作"
+        },
+        {
+          "term": "MAXLEN",
+          "relation": "MAXLEN"
+        },
+        {
+          "term": "front",
+          "relation": "front"
+        },
+        {
+          "term": "Node",
+          "relation": "Node"
+        },
+        {
+          "term": "of",
+          "relation": "的"
+        },
+        {
+          "term": "linear-table",
+          "relation": "线性表"
+        },
+        {
+          "term": "MAXSIZE",
+          "relation": "MAXSIZE"
+        },
+        {
+          "term": "address",
+          "relation": "地址"
+        },
+        {
+          "term": "beginning",
+          "relation": "beginning"
+        },
+        {
+          "term": "position",
+          "relation": "位置"
+        },
+        {
+          "term": "algorithm-analysis",
+          "relation": "算法分析"
+        },
+        {
+          "term": "assumption",
+          "relation": "假设"
+        },
+        {
+          "term": "element",
+          "relation": "元素"
+        },
+        {
+          "term": "empty-string",
+          "relation": "空格串"
+        },
+        {
+          "term": "ADT String",
+          "relation": "ADT String"
+        },
+        {
+          "term": "4.1",
+          "relation": "4.1"
+        },
+        {
+          "term": "String",
+          "relation": "串"
+        },
+        {
+          "term": "4.2",
+          "relation": "4.2"
+        },
+        {
+          "term": "String Storage",
+          "relation": "存储实现"
+        },
+        {
+          "term": "SString",
+          "relation": "SString"
+        },
+        {
+          "term": "Ordering",
+          "relation": "顺序"
+        },
+        {
+          "term": "Insertion",
+          "relation": "插入"
+        },
+        {
+          "term": "Delete",
+          "relation": "删除"
+        },
+        {
+          "term": "Compare",
+          "relation": "比较"
+        },
+        {
+          "term": "Brute-Fore",
+          "relation": "Brute-Fore"
+        }
+      ],
+      "relationships": [
+        {
+          "term": "link",
+          "relation": "链队列"
+        },
+        {
+          "term": "operation",
+          "relation": "基本操作"
+        },
+        {
+          "term": "algorithm",
+          "relation": "算法分析"
+        }
+      ]
+    },
+    "67a5bfd2e1dc72cb3aa8dbaa975fd984": {
+      "entities": [
+        {
+          "name": "三元组表",
+          "type": "概念|算法|数据结构|术语",
+          "description": "用于存储非零元素的三元组表，其中每个三元组包含行、列和值。"
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "概念|算法|数据结构|术语",
+          "description": "存储稀疏矩阵非零元素的结构，通过三元组表实现空间和时间优化。"
+        },
+        {
+          "name": "列序递增转置法",
+          "type": "概念|算法|数据结构|术语",
+          "description": "用于稀疏矩阵转置的算法，通过列序遍历实现高效存储和计算。"
+        },
+        {
+          "name": "十字链表",
+          "type": "概念|算法|数据结构|术语",
+          "description": "用于存储稀疏矩阵非零元素的十字链表结构，通过行和列链表实现高效访问。"
+        },
+        {
+          "name": "树",
+          "type": "概念|算法|数据结构|术语",
+          "description": "用于存储非空树的结构，包含根节点、子树和层次信息。"
+        },
+        {
+          "name": "稀疏矩阵",
+          "type": "概念|算法|数据结构|术语",
+          "description": "存储稀疏矩阵的结构，通过三元组表实现空间优化。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "三元组表",
+          "target": "列序递增转置法",
+          "relation": "定义",
+          "description": "三元组表用于存储非零元素，列序递增转置法是其实现方式。"
+        },
+        {
+          "source": "三元组表",
+          "target": "十字链表",
+          "relation": "定义",
+          "description": "三元组表用于存储稀疏矩阵非零元素，十字链表是其实现方式。"
+        },
+        {
+          "source": "列序递增转置法",
+          "target": "稀疏矩阵",
+          "relation": "实现方式",
+          "description": "列序递增转置法用于实现稀疏矩阵的存储和转置。"
+        }
+      ]
+    },
+    "121dd7f5421dbb5e49f7a8b2ec4f2daf": {
+      "entities": [
+        {
+          "name": "双亲结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "树的双亲结点"
+        },
+        {
+          "name": "兄弟结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "同一双亲结点的孩子结点"
+        },
+        {
+          "name": "祖先结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "从根结点到该结点的路径上的所有结点"
+        },
+        {
+          "name": "子孙结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "一个结点的直接后继和间接后继"
+        },
+        {
+          "name": "有序树",
+          "type": "概念|算法|数据结构|术语",
+          "description": "在树T中，各子树Ti之间有先后次序"
+        },
+        {
+          "name": "森林",
+          "type": "概念|算法|数据结构|术语",
+          "description": "m（m≥0）棵互不相交的树的集合"
+        },
+        {
+          "name": "二叉树",
+          "type": "概念|算法|数据结构|术语",
+          "description": "满足两个条件的树结构"
+        },
+        {
+          "name": "数据对象",
+          "type": "概念|算法|数据结构|术语",
+          "description": "一个集合D，其中所有元素具有相同特性"
+        },
+        {
+          "name": "ADT",
+          "type": "概念|算法|数据结构|术语",
+          "description": "结构关系：若D为空集，则为空树；若D中仅含有一个数据元素，则R为空集；否则R={H}，H是如下的二元关系"
+        },
+        {
+          "name": "Tree",
+          "type": "概念|算法|数据结构|术语",
+          "description": "树的结构定义"
+        },
+        {
+          "name": "节点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "树的结构元素"
+        },
+        {
+          "name": "根结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "树的结构中心"
+        },
+        {
+          "name": "访问根结点",
+          "type": "概念|算法|数据结构|术语",
+          "description": "访问根结点"
+        },
+        {
+          "name": "遍历左子树",
+          "type": "概念|算法|数据结构|术语",
+          "description": "访问根结点"
+        },
+        {
+          "name": "遍历右子树",
+          "type": "概念|算法|数据结构|术语",
+          "description": "访问根结点"
+        },
+        {
+          "name": "访问根",
+          "type": "概念|算法|数据结构|术语",
+          "description": "访问根结点"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "双亲结点",
+          "target": "祖先结点",
+          "relation": "祖先",
+          "description": "从根结点到该结点的路径上的所有结点"
+        },
+        {
+          "source": "双亲结点",
+          "target": "兄弟结点",
+          "relation": "兄弟",
+          "description": "同一双亲结点的孩子结点"
+        },
+        {
+          "source": "双亲结点",
+          "target": "节点",
+          "relation": "节点",
+          "description": "树的结构元素"
+        },
+        {
+          "source": "双亲结点",
+          "target": "根结点",
+          "relation": "根",
+          "description": "树的结构中心"
+        },
+        {
+          "source": "双亲结点",
+          "target": "访问根结点",
+          "relation": "访问",
+          "description": "访问根结点"
+        },
+        {
+          "source": "双亲结点",
+          "target": "遍历左子树",
+          "relation": "遍历",
+          "description": "访问根结点"
+        },
+        {
+          "source": "双亲结点",
+          "target": "遍历右子树",
+          "relation": "遍历",
+          "description": "访问根结点"
+        }
+      ]
+    },
+    "b1173ebf665d072433f9ae06557f54a8": {
+      "entities": [
+        {
+          "name": "遍历左子树",
+          "type": "算法",
+          "description": "遍历操作中左子树的访问"
+        },
+        {
+          "name": "遍历右子树",
+          "type": "算法",
+          "description": "遍历操作中右子树的访问"
+        },
+        {
+          "name": "访问根",
+          "type": "操作",
+          "description": "访问根结点的顺序"
+        },
+        {
+          "name": "DLR",
+          "type": "遍历算法",
+          "description": "先序遍历的访问顺序"
+        },
+        {
+          "name": "LDR",
+          "type": "遍历算法",
+          "description": "中序遍历的访问顺序"
+        },
+        {
+          "name": "LRD",
+          "type": "遍历算法",
+          "description": "后序遍历的访问顺序"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "访问根",
+          "target": "DLR",
+          "relation": "定义为",
+          "weight": 1.0
+        },
+        {
+          "source": "访问根",
+          "target": "LDR",
+          "relation": "定义为",
+          "weight": 1.0
+        },
+        {
+          "source": "访问根",
+          "target": "LRD",
+          "relation": "定义为",
+          "weight": 1.0
+        }
+      ]
+    },
+    "24f0cc031def0780270ebd20ed3a6ca3": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "数据结构|算法",
+          "description": "数组、栈、队列、串等线性结构"
+        },
+        {
+          "name": "栈",
+          "type": "数据结构|算法",
+          "description": "用于操作数据的集合"
+        },
+        {
+          "name": "树",
+          "type": "数据结构|算法",
+          "description": "递归结构"
+        },
+        {
+          "name": "二叉树",
+          "type": "数据结构|算法",
+          "description": "结构化树形数据"
+        },
+        {
+          "name": "递归",
+          "type": "算法",
+          "description": "函数调用的层次结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "数组",
+          "relation": "类型",
+          "description": "数组是线性表的一种"
+        },
+        {
+          "source": "数组",
+          "target": "线性表",
+          "relation": "类型",
+          "description": "数组是线性表的实例"
+        },
+        {
+          "source": "栈",
+          "target": "队列",
+          "relation": "结构",
+          "description": "栈和队列是线性结构的实现方式"
+        },
+        {
+          "source": "队列",
+          "target": "栈",
+          "relation": "实现方式",
+          "description": "队列是栈的实现方式"
+        },
+        {
+          "source": "树",
+          "target": "二叉树",
+          "relation": "类型",
+          "description": "树是二叉树的实例"
+        }
+      ]
+    },
+    "4dc88a0ead3b9cb7fb33c5e0d1076d6a": {
+      "entities": [
+        {
+          "name": "森林",
+          "type": "数据结构/算法",
+          "description": "构成的结构"
+        },
+        {
+          "name": "哈夫曼树",
+          "type": "数据结构/算法",
+          "description": "哈夫曼树的存储结构和应用"
+        },
+        {
+          "name": "中序遍历",
+          "type": "算法",
+          "description": "森林的中序遍历方法"
+        },
+        {
+          "name": "后序遍历",
+          "type": "算法",
+          "description": "森林的后序遍历方法"
+        },
+        {
+          "name": "哈夫曼编码",
+          "type": "算法",
+          "description": "哈夫曼树的编码方式"
+        },
+        {
+          "name": "二叉树",
+          "type": "数据结构/算法",
+          "description": "用于存储和遍历的结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "森林",
+          "target": "中序遍历",
+          "relation": "方法",
+          "description": "森林的中序遍历方法",
+          "weight": 0.8
+        },
+        {
+          "source": "中序遍历",
+          "target": "后序遍历",
+          "relation": "方法",
+          "description": "森林的后序遍历方法",
+          "weight": 0.7
+        },
+        {
+          "source": "哈夫曼树",
+          "target": "哈夫曼编码",
+          "relation": "应用",
+          "description": "哈夫曼树的编码方式",
+          "weight": 0.9
+        }
+      ]
+    },
+    "d020f774f9c76411f2002811bbd238ee": {
+      "entities": [
+        {
+          "name": "堆栈",
+          "type": "数据结构/算法",
+          "description": "用于存储和操作数据的结构"
+        },
+        {
+          "name": "二叉树",
+          "type": "数据结构/算法",
+          "description": "树形结构，具有左右子树的特性"
+        },
+        {
+          "name": "层次遍历",
+          "type": "算法",
+          "description": "遍历方式，通过层次结构进行节点访问"
+        },
+        {
+          "name": "图",
+          "type": "数据结构/算法",
+          "description": "网络状结构，包含顶点和边的关系"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "堆栈",
+          "target": "数据结构/算法",
+          "relation": "定义为",
+          "description": "用于存储和操作数据的结构"
+        },
+        {
+          "source": "二叉树",
+          "target": "数据结构/算法",
+          "relation": "属于",
+          "description": "树形结构"
+        },
+        {
+          "source": "层次遍历",
+          "target": "算法",
+          "relation": "用于",
+          "description": "访问二叉树的遍历方式"
+        },
+        {
+          "source": "图",
+          "target": "数据结构/算法",
+          "relation": "定义为",
+          "description": "网络状结构"
+        }
+      ]
+    },
+    "6030b6cd1169c8148bbf4e0a622e6123": {
+      "entities": [
+        {
+          "name": "邻接矩阵",
+          "type": "数据结构|算法",
+          "description": "存储图顶点和边关系的矩阵形式"
+        },
+        {
+          "name": "邻接表",
+          "type": "数据结构|算法",
+          "description": "存储图边的链式结构"
+        },
+        {
+          "name": "图",
+          "type": "数据结构|算法",
+          "description": "网络中顶点和边的集合"
+        },
+        {
+          "name": "邻接矩阵表示法",
+          "type": "算法",
+          "description": "存储图顶点和边关系的矩阵形式"
+        },
+        {
+          "name": "邻接表表示法",
+          "type": "数据结构|算法",
+          "description": "存储图边的链式结构"
+        },
+        {
+          "name": "权",
+          "type": "算法",
+          "description": "边或弧的权重信息"
+        },
+        {
+          "name": "赋权图",
+          "type": "算法",
+          "description": "带权的图结构"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接矩阵",
+          "target": "邻接矩阵表示法",
+          "relation": "实现方式",
+          "description": "邻接矩阵用于存储图的顶点和边关系"
+        },
+        {
+          "source": "邻接矩阵",
+          "target": "邻接表表示法",
+          "relation": "存储结构",
+          "description": "邻接矩阵和邻接表用于表示图的结构"
+        },
+        {
+          "source": "邻接矩阵",
+          "target": "权",
+          "relation": "属性",
+          "description": "边或弧的权重信息"
+        },
+        {
+          "source": "邻接矩阵",
+          "target": "赋权图",
+          "relation": "应用",
+          "description": "带权图的邻接矩阵表示"
+        }
+      ]
+    },
+    "37478a6bffd9d70b1acb056ee93d8977": {
+      "entities": [
+        {
+          "name": "邻接表",
+          "type": "数据结构|算法",
+          "description": "用于存储图的邻接结构，包含顶点和边的链表方式。"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "数据结构|算法",
+          "description": "通过矩阵形式存储图的邻接关系，空间复杂度较高。"
+        },
+        {
+          "name": "DFS（深度优先搜索）",
+          "type": "算法",
+          "description": "用于无向图的搜索算法，时间复杂度为O(n²)。"
+        },
+        {
+          "name": "BFS（广度优先搜索）",
+          "type": "算法",
+          "description": "用于搜索算法，时间复杂度为O(n + e)。"
+        },
+        {
+          "name": "顶点",
+          "type": "数据结构|算法",
+          "description": "图中的节点，用于存储顶点数据。"
+        },
+        {
+          "name": "边",
+          "type": "数据结构|算法",
+          "description": "图中的边，用于连接顶点。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接表",
+          "target": "邻接矩阵",
+          "relation": "存储方式",
+          "description": "邻接表存储方式与邻接矩阵相比在存储效率上优势明显。",
+          "weight": 0.8
+        },
+        {
+          "source": "DFS",
+          "target": "BFS",
+          "relation": "时间复杂度",
+          "description": "DFS与BFS的时间复杂度分别为O(n²)和O(n + e)。",
+          "weight": 0.7
+        }
+      ]
+    },
+    "949081d1318d213567651e1facfdabdf": {
+      "entities": [
+        {
+          "name": "生成树",
+          "type": "数据结构/算法",
+          "description": "指具有n个顶点的连通图G的一个极小连通子图，它含有图G中的全部顶点，但只有足已构成一棵树的n-1条边。"
+        },
+        {
+          "name": "最小生成树",
+          "type": "数据结构/算法",
+          "description": "在一个连通网的所有生成树中，各边的代价之和最小的那棵生成树。它又被称为最小代价生成树。"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "数据结构/算法",
+          "description": "存储有向无环图边的结构，用于表示顶点之间的连接关系。"
+        },
+        {
+          "name": "邻接表",
+          "type": "数据结构/算法",
+          "description": "用于存储有向无环图边的结构，通过顶点的邻接点来表示。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "生成树",
+          "target": "最小生成树",
+          "relation": "属于",
+          "description": "生成树算法中的最小生成树算法",
+          "weight": 0.8
+        },
+        {
+          "source": "最小生成树",
+          "target": "邻接矩阵",
+          "relation": "定义为",
+          "description": "最小生成树算法基于邻接矩阵的实现方式",
+          "weight": 0.7
+        },
+        {
+          "source": "邻接矩阵",
+          "target": "邻接表",
+          "relation": "存储结构",
+          "description": "邻接矩阵与邻接表用于表示图的边结构",
+          "weight": 0.6
+        }
+      ]
+    },
+    "e44630d542253776bead55077156dc0f": {
+      "entities": [
+        {
+          "name": "邻接表",
+          "type": "数据结构/算法",
+          "description": "存储图中顶点及其邻接点的结构，用于实现拓扑排序等算法"
+        },
+        {
+          "name": "Dijkstra算法",
+          "type": "算法",
+          "description": "用于计算图中任意两点最短路径的算法"
+        },
+        {
+          "name": "Floyd算法",
+          "type": "算法",
+          "description": "用于查找任意两点间最短路径的算法"
+        },
+        {
+          "name": "邻接矩阵",
+          "type": "数据结构/算法",
+          "description": "用于存储图的顶点和边的结构，用于实现最短路径算法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "邻接表",
+          "target": "拓扑排序",
+          "relation": "实现方式",
+          "description": "使用邻接表存储结构实现拓扑排序算法"
+        },
+        {
+          "source": "Dijkstra算法",
+          "target": "最短路径",
+          "relation": "算法步骤",
+          "description": "采用邻接矩阵存储带权图的最短路径算法"
+        },
+        {
+          "source": "Floyd算法",
+          "target": "最短路径",
+          "relation": "算法思想",
+          "description": "通过邻接矩阵存储实现的最短路径算法"
+        }
+      ]
+    },
+    "dabab1451d902e807cfe2184ca53a9a8": {
+      "entities": [
+        {
+          "name": "线性表",
+          "type": "数据结构|算法",
+          "description": "线性表是数组等基本数据结构，具有顺序存储和访问特性。"
+        },
+        {
+          "name": "数组",
+          "type": "数据结构|算法",
+          "description": "数组是线性表的扩展形式，支持快速访问和随机访问。"
+        },
+        {
+          "name": "树",
+          "type": "数据结构|算法",
+          "description": "树是基于二叉排序树的结构，支持查找、插入和删除操作。"
+        },
+        {
+          "name": "二叉排序树",
+          "type": "数据结构|算法",
+          "description": "二叉排序树是一种树结构，支持有序列表查找和插入。"
+        },
+        {
+          "name": "平衡二叉排序树",
+          "type": "数据结构|算法",
+          "description": "平衡二叉排序树是一种平衡树结构，具有特定的平衡因子约束。"
+        },
+        {
+          "name": "哈希表",
+          "type": "数据结构|算法",
+          "description": "哈希表是一种基于哈希函数的存储结构，支持快速查找。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "线性表",
+          "target": "数组",
+          "relation": "定义为",
+          "description": "线性表和数组是数据结构的基本形式，具有顺序存储和访问特性。"
+        },
+        {
+          "source": "数组",
+          "target": "树",
+          "relation": "属于",
+          "description": "数组是线性表的扩展形式，支持快速访问和随机访问。"
+        },
+        {
+          "source": "树",
+          "target": "二叉排序树",
+          "relation": "定义为",
+          "description": "树是基于二叉排序树的结构，支持有序列表查找和插入。"
+        },
+        {
+          "source": "二叉排序树",
+          "target": "平衡二叉排序树",
+          "relation": "属于",
+          "description": "平衡二叉排序树是树结构的一种，具有特定的平衡因子约束。"
+        },
+        {
+          "source": "平衡二叉排序树",
+          "target": "哈希表",
+          "relation": "用于",
+          "description": "平衡二叉排序树通过平衡因子约束实现高效查找。"
+        }
+      ]
+    },
+    "869ee8e7a0d036e039a455eea6ec8671": {
+      "entities": [
+        {
+          "name": "B树",
+          "type": "数据结构/算法",
+          "description": "平衡二叉树的结构设计，用于高效的数据存储与查找"
+        },
+        {
+          "name": "哈希表",
+          "type": "数据结构/算法",
+          "description": "通过哈希函数映射关键字到地址的存储结构"
+        },
+        {
+          "name": "插入排序",
+          "type": "算法",
+          "description": "用于排序的算法，通过比较和移动记录实现"
+        },
+        {
+          "name": "直接插入排序",
+          "type": "算法",
+          "description": "在已排好序的记录子集中插入新记录的方法"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "B树",
+          "target": "数据结构/算法",
+          "relation": "属于",
+          "description": "平衡二叉树的结构设计"
+        },
+        {
+          "source": "哈希表",
+          "target": "数据结构/算法",
+          "relation": "用于",
+          "description": "处理冲突的方法"
+        },
+        {
+          "source": "插入排序",
+          "target": "算法",
+          "relation": "定义为",
+          "description": "用于排序的算法"
+        }
+      ]
+    },
+    "f1222b8906ce28cd43ea2115811eced1": {
+      "entities": [
+        {
+          "name": "直接插入排序",
+          "type": "算法",
+          "description": "算法思想：将第i个记录的关键字Ki顺次与其前面记录的关键字Ki-1，Ki-2，…K1比较，将所有关键字大于Ki的记录依次向后移动一个位置，直到遇见一个关键字小于或者等于Ki的记录Kj；此时Kj后面必为一个空位置，将记录Ki插入该空位置。"
+        },
+        {
+          "name": "折半插入排序",
+          "type": "算法",
+          "description": "算法思想：将第i个记录插入有序记录r[1..i-1]中，利用折半查找思想，快速确定插入新记录的位置。将low初始化为1，high为i-1，计算中间位置mid=(low+high)/2；用中间位置记录的关键字Kmid与待插入的第i个记录r[i].key比较，根据比较的大小调整low或者high，直到high<low为止；将low到i-1的记录依次向后移动一个位置，将第i个记录插入low位置。"
+        },
+        {
+          "name": "希尔排序",
+          "type": "算法",
+          "description": "算法思想：首先选定记录间的增量（距离）为di(i=1)，在整个待排序记录序列中将所有间隔为d1的记录分成一组，组内进行直接插入排序；然后取i=i+1，记录间的增量为di(di<di-1)，在整个待排序记录序列中，将所有间隔为di的记录分成一组，组内进行直接插入排序；重复步骤②若干次，直至记录间的增量di=1，此时只有一个子序列，对该序列进行直接插入排序，完成整个排序过程。"
+        },
+        {
+          "name": "快速排序",
+          "type": "算法",
+          "description": "算法思想：从待排序记录中选取一个记录（通常选取第一个记录）为枢轴，其关键字设为K1，然后将其余关键字小于K1的记录移到其前面，关键字大于K1的记录移到其后面。通过一次划分后，找到K1所在记录在序列中的位置，且K1将待排序序列分成两个子表，前一子表中所有记录的关键字均不大于K1，后一子表中所有记录的关键字均不小于K1。继续按上述原则进行分割，直到所有子表的表长不超过1为止，排序结束。"
+        },
+        {
+          "name": "堆排序",
+          "type": "算法",
+          "description": "堆排序需要解决的两个问题：建初堆：按照堆定义，根据待排序的初始序列建初堆。重建堆：当堆顶元素改变后，调整完全二叉树重新成为堆。"
+        }
+      ],
+      "relationships": [
+        {
+          "source": "直接插入排序",
+          "target": "算法思想",
+          "relation": "定义",
+          "weight": 0.8
+        },
+        {
+          "source": "折半插入排序",
+          "target": "算法思想",
+          "relation": "定义",
+          "weight": 0.7
+        },
+        {
+          "source": "希尔排序",
+          "target": "算法思想",
+          "relation": "定义",
+          "weight": 0.6
+        },
+        {
+          "source": "快速排序",
+          "target": "算法思想",
+          "relation": "定义",
+          "weight": 0.5
+        },
+        {
+          "source": "堆排序",
+          "target": "算法思想",
+          "relation": "定义",
+          "weight": 0.4
+        }
+      ]
+    },
+    "195ca906ec79f1bd80051e959b9e43ab": {
+      "entities": [
+        {
+          "term": "struct",
+          "relationship": "定义结构体"
+        },
+        {
+          "term": "typedef",
+          "relationship": "定义类型"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "key",
+          "relationship": "关键字"
+        },
+        {
+          "term": "keyType",
+          "relationship": "关键字类型"
+        },
+        {
+          "term": "define",
+          "relationship": "定义关键字"
+        },
+        {
+          "term": "next",
+          "relationship": "链域"
+        },
+        {
+          "term": "data",
+          "relationship": "其他数据项"
+        },
+        {
+          "term": "RecordType",
+          "relationship": "结构体类型"
+        },
+        {
+          "term": "k_i",
+          "relationship": "子关键字"
+        },
+        {
+          "term": "basic",
+          "relationship": "基本思想"
+        },
+        {
+          "term": "assumption",
+          "relationship": "假设"
+        },
+        {
+          "term": "element",
+          "relationship": "元素"
+        }
+      ],
+      "relationships": [
+        {
+          "term": "struct",
+          "relationship": "定义结构体"
+        },
+        {
+          "term": "typedef",
+          "relationship": "定义类型"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "algorithm",
+          "relationship": "算法"
+        },
+        {
+          "term": "key",
+          "relationship": "关键字"
+        },
+        {
+          "term": "keyType",
+          "relationship": "关键字类型"
+        },
+        {
+          "term": "define",
+          "relationship": "定义关键字"
+        },
+        {
+          "term": "next",
+          "relationship": "链域"
+        },
+        {
+          "term": "data",
+          "relationship": "其他数据项"
+        },
+        {
+          "term": "RecordType",
+          "relationship": "结构体类型"
+        },
+        {
+          "term": "k_i",
+          "relationship": "子关键字"
+        },
+        {
+          "term": "basic",
+          "relationship": "基本思想"
+        },
+        {
+          "term": "assumption",
+          "relationship": "假设"
+        },
+        {
+          "term": "element",
+          "relationship": "元素"
+        }
+      ]
+    }
+  }
+}
